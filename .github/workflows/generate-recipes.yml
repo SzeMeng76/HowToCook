@@ -1,0 +1,50 @@
+name: Generate Recipe JSON
+
+on:
+  push:
+    branches: [ main, master ]
+    paths: 
+      - 'dishes/**/*.md'
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - 'dishes/**/*.md'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  generate-json:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        pip install pyyaml
+        
+    - name: Generate recipes JSON
+      run: python scripts/generate_recipes.py
+      
+    - name: Check for changes
+      id: changes
+      run: |
+        if git diff --quiet all_recipes.json; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Commit and push if changed
+      if: steps.changes.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add all_recipes.json
+        git commit -m "auto: update recipes JSON from markdown files"
+        git push
