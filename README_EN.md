@@ -24,7 +24,7 @@ This project provides automated JSON data generation functionality, compatible w
 - 🔄 **Real-time Updates**: Automatically regenerates JSON when recipe files are modified
 - 🎯 **Format Compatible**: Fully compatible with cooking module data structure requirements
 
-View detailed documentation: [AUTO_GENERATION.md](./AUTO_GENERATION.md)
+View detailed documentation: [AUTO_GENERATION_EN.md](./AUTO_GENERATION_EN.md)
 
 ## Local Deployment
 

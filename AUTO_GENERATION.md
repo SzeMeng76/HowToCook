@@ -1,5 +1,7 @@
 # HowToCook 自动化菜谱JSON生成
 
+🇨🇳 中文版 | [🇺🇸 English](./AUTO_GENERATION_EN.md)
+
 ## 概述
 
 这个项目通过GitHub Actions自动从`dishes/`目录下的Markdown文件生成适配cooking模块的JSON格式菜谱数据。经过优化的解析器已实现**100%解析成功率**，支持324个菜谱的完整数据提取。

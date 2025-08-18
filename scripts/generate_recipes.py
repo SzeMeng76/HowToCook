@@ -11,6 +11,7 @@ import json
 import hashlib
 from pathlib import Path
 from typing import Dict, List, Any, Optional
+from datetime import datetime
 
 
 class RecipeParser:
@@ -32,6 +33,127 @@ class RecipeParser:
     
     def __init__(self, dishes_dir: str = 'dishes'):
         self.dishes_dir = Path(dishes_dir)
+        self.stats_file = Path('recipe_stats.json')
+        
+    def load_previous_stats(self) -> Dict:
+        """加载上次的统计信息"""
+        if self.stats_file.exists():
+            with open(self.stats_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        return {}
+        
+    def save_current_stats(self, stats: Dict) -> None:
+        """保存当前统计信息"""
+        with open(self.stats_file, 'w', encoding='utf-8') as f:
+            json.dump(stats, f, ensure_ascii=False, indent=2)
+            
+    def compare_stats(self, old_stats: Dict, new_stats: Dict) -> Dict:
+        """比较统计信息变化"""
+        changes = {
+            'total_change': new_stats['total'] - old_stats.get('total', 0),
+            'category_changes': {},
+            'added_recipes': [],
+            'removed_recipes': [],
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        # 比较分类变化
+        for category, count in new_stats['categories'].items():
+            old_count = old_stats.get('categories', {}).get(category, 0)
+            if count != old_count:
+                changes['category_changes'][category] = {
+                    'old': old_count,
+                    'new': count,
+                    'change': count - old_count
+                }
+        
+        # 比较食谱列表变化
+        old_recipes = set(old_stats.get('recipe_list', []))
+        new_recipes = set(new_stats['recipe_list'])
+        
+        changes['added_recipes'] = list(new_recipes - old_recipes)
+        changes['removed_recipes'] = list(old_recipes - new_recipes)
+        
+        return changes
+        
+    def generate_changelog_entry(self, changes: Dict) -> str:
+        """生成changelog条目"""
+        if changes['total_change'] == 0 and not changes['category_changes']:
+            return ""
+            
+        timestamp = datetime.now().strftime("%Y-%m-%d")
+        entry_lines = [f"\n## [Unreleased] - {timestamp}\n"]
+        
+        if changes['total_change'] != 0:
+            if changes['total_change'] > 0:
+                entry_lines.append(f"### Added")
+                entry_lines.append(f"- 📝 **{changes['total_change']} New Recipes**: Total recipes increased to {changes['total_change'] + len(changes.get('removed_recipes', []))}")
+            else:
+                entry_lines.append(f"### Removed")
+                entry_lines.append(f"- 📝 **{abs(changes['total_change'])} Recipes Removed**: Total recipes decreased to {changes['total_change'] + len(changes.get('removed_recipes', []))}")
+        
+        # 详细的分类变化
+        if changes['category_changes']:
+            entry_lines.append(f"\n### Recipe Distribution Changes")
+            for category, change_info in changes['category_changes'].items():
+                change_text = f"+{change_info['change']}" if change_info['change'] > 0 else str(change_info['change'])
+                entry_lines.append(f"- **{category}**: {change_info['old']} → {change_info['new']} ({change_text})")
+        
+        # 新增的食谱
+        if changes['added_recipes']:
+            entry_lines.append(f"\n### New Recipes Added")
+            for recipe in sorted(changes['added_recipes'][:10]):  # 最多显示10个
+                entry_lines.append(f"- {recipe}")
+            if len(changes['added_recipes']) > 10:
+                entry_lines.append(f"- ... and {len(changes['added_recipes']) - 10} more")
+        
+        # 移除的食谱  
+        if changes['removed_recipes']:
+            entry_lines.append(f"\n### Recipes Removed")
+            for recipe in sorted(changes['removed_recipes']):
+                entry_lines.append(f"- {recipe}")
+        
+        return "\n".join(entry_lines) + "\n"
+        
+    def update_changelog(self, changes: Dict) -> None:
+        """更新CHANGELOG.md文件"""
+        changelog_path = Path('CHANGELOG.md')
+        if not changelog_path.exists():
+            return
+            
+        entry = self.generate_changelog_entry(changes)
+        if not entry:
+            return
+            
+        # 读取现有changelog
+        with open(changelog_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # 找到插入位置（在## [Unreleased]后面）
+        lines = content.split('\n')
+        insert_index = None
+        
+        for i, line in enumerate(lines):
+            if line.startswith('## [Unreleased]') and i < len(lines) - 1:
+                insert_index = i + 1
+                break
+        
+        if insert_index is not None:
+            # 如果已有[Unreleased]内容，先移除旧的
+            while insert_index < len(lines) and not lines[insert_index].startswith('## ['):
+                if lines[insert_index].strip():
+                    break
+                insert_index += 1
+            
+            # 插入新内容
+            entry_lines = entry.strip().split('\n')[1:]  # 移除标题行
+            lines[insert_index:insert_index] = entry_lines
+            
+            # 写回文件
+            with open(changelog_path, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(lines))
+            
+            print(f"📝 Updated CHANGELOG.md with recipe changes")
         
     def parse_difficulty(self, content: str) -> int:
         """从内容中提取难度等级"""
@@ -275,6 +397,9 @@ class RecipeParser:
             
     def generate_recipes_json(self, output_file: str = 'all_recipes.json') -> None:
         """生成菜谱JSON文件"""
+        # 加载之前的统计信息
+        old_stats = self.load_previous_stats()
+        
         recipes = []
         
         # 遍历dishes目录下的所有markdown文件
@@ -298,13 +423,60 @@ class RecipeParser:
         
         # 统计信息
         categories = {}
+        recipe_list = []
         for recipe in recipes:
             cat = recipe['category']
             categories[cat] = categories.get(cat, 0) + 1
+            recipe_list.append(recipe['name'])
             
+        # 当前统计信息
+        current_stats = {
+            'total': len(recipes),
+            'categories': categories,
+            'recipe_list': recipe_list,
+            'timestamp': datetime.now().isoformat()
+        }
+        
         print("分类统计:")
         for cat, count in sorted(categories.items()):
             print(f"  {cat}: {count} 个菜谱")
+            
+        # 比较变化并更新changelog
+        if old_stats:
+            changes = self.compare_stats(old_stats, current_stats)
+            if changes['total_change'] != 0 or changes['category_changes']:
+                print(f"\n📊 检测到食谱变化:")
+                if changes['total_change'] != 0:
+                    change_text = f"+{changes['total_change']}" if changes['total_change'] > 0 else str(changes['total_change'])
+                    print(f"  总数变化: {old_stats['total']} → {current_stats['total']} ({change_text})")
+                
+                if changes['added_recipes']:
+                    print(f"  新增食谱: {len(changes['added_recipes'])} 个")
+                    for recipe in changes['added_recipes'][:5]:  # 显示前5个
+                        print(f"    + {recipe}")
+                    if len(changes['added_recipes']) > 5:
+                        print(f"    + ... 还有 {len(changes['added_recipes']) - 5} 个")
+                
+                if changes['removed_recipes']:
+                    print(f"  移除食谱: {len(changes['removed_recipes'])} 个")
+                    for recipe in changes['removed_recipes']:
+                        print(f"    - {recipe}")
+                
+                if changes['category_changes']:
+                    print(f"  分类变化:")
+                    for category, change_info in changes['category_changes'].items():
+                        change_text = f"+{change_info['change']}" if change_info['change'] > 0 else str(change_info['change'])
+                        print(f"    {category}: {change_info['old']} → {change_info['new']} ({change_text})")
+                
+                # 更新changelog
+                self.update_changelog(changes)
+            else:
+                print(f"\n📊 没有检测到食谱数量变化")
+        else:
+            print(f"\n📊 首次运行，建立基准统计信息")
+        
+        # 保存当前统计信息
+        self.save_current_stats(current_stats)
 
 
 def main():
