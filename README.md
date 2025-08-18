@@ -1,6 +1,6 @@
 # 程序员做饭指南
 
-[![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml)
+[![build](https://github.com/SzeMeng76/HowToCook/actions/workflows/generate-recipes.yml/badge.svg)](https://github.com/SzeMeng76/HowToCook/actions/workflows/generate-recipes.yml)
 [![License](https://img.shields.io/github/license/SzeMeng76/HowToCook)](./LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/SzeMeng76/HowToCook)](https://github.com/SzeMeng76/HowToCook/graphs/contributors)
 [![npm](https://img.shields.io/npm/v/how-to-cook)](https://www.npmjs.com/package/how-to-cook)
