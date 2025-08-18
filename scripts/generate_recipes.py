@@ -78,39 +78,44 @@ class RecipeParser:
         
     def generate_changelog_entry(self, changes: Dict) -> str:
         """生成changelog条目"""
-        timestamp = datetime.now().strftime("%Y-%m-%d")
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
         # 如果没有变化，也生成一个简单的检测记录
         if changes['total_change'] == 0 and not changes['category_changes']:
             entry_lines = [
-                f"\n## [Unreleased] - {timestamp}\n",
-                f"### Status",
-                f"- ✅ **No Recipe Changes**: All {changes.get('total_recipes', 'existing')} recipes verified and up-to-date",
-                f"- 🔍 **Automated Check**: Recipe content and structure validation completed"
+                f"## ✅ Recipe Check - {timestamp}",
+                f"",
+                f"**Status**: No changes detected",
+                f"- Total recipes: {changes.get('total_recipes', 'unknown')} (verified)",
+                f"- All recipe content and structure validated",
+                f"- JSON data generation completed successfully",
+                f""
             ]
-            return "\n".join(entry_lines) + "\n"
+            return "\n".join(entry_lines)
             
         # 有变化时的详细记录
-        entry_lines = [f"\n## [Unreleased] - {timestamp}\n"]
+        entry_lines = [f"## 🔄 Recipe Update - {timestamp}", ""]
         
         if changes['total_change'] != 0:
             if changes['total_change'] > 0:
-                entry_lines.append(f"### Added")
-                entry_lines.append(f"- 📝 **{changes['total_change']} New Recipes**: Total recipes increased to {changes.get('total_recipes', 'unknown')}")
+                entry_lines.append(f"**📝 {changes['total_change']} New Recipes Added**")
+                entry_lines.append(f"- Total recipes: {changes.get('total_recipes', 'unknown')}")
             else:
-                entry_lines.append(f"### Removed")
-                entry_lines.append(f"- 📝 **{abs(changes['total_change'])} Recipes Removed**: Total recipes decreased to {changes.get('total_recipes', 'unknown')}")
+                entry_lines.append(f"**🗑️ {abs(changes['total_change'])} Recipes Removed**")
+                entry_lines.append(f"- Total recipes: {changes.get('total_recipes', 'unknown')}")
         
         # 详细的分类变化
         if changes['category_changes']:
-            entry_lines.append(f"\n### Recipe Distribution Changes")
+            entry_lines.append(f"")
+            entry_lines.append(f"**Category Changes**:")
             for category, change_info in changes['category_changes'].items():
                 change_text = f"+{change_info['change']}" if change_info['change'] > 0 else str(change_info['change'])
-                entry_lines.append(f"- **{category}**: {change_info['old']} → {change_info['new']} ({change_text})")
+                entry_lines.append(f"- {category}: {change_info['old']} → {change_info['new']} ({change_text})")
         
         # 新增的食谱
         if changes['added_recipes']:
-            entry_lines.append(f"\n### New Recipes Added")
+            entry_lines.append(f"")
+            entry_lines.append(f"**Added Recipes**:")
             for recipe in sorted(changes['added_recipes'][:10]):  # 最多显示10个
                 entry_lines.append(f"- {recipe}")
             if len(changes['added_recipes']) > 10:
@@ -118,11 +123,13 @@ class RecipeParser:
         
         # 移除的食谱  
         if changes['removed_recipes']:
-            entry_lines.append(f"\n### Recipes Removed")
+            entry_lines.append(f"")
+            entry_lines.append(f"**Removed Recipes**:")
             for recipe in sorted(changes['removed_recipes']):
                 entry_lines.append(f"- {recipe}")
         
-        return "\n".join(entry_lines) + "\n"
+        entry_lines.append("")
+        return "\n".join(entry_lines)
         
     def update_changelog(self, changes: Dict) -> None:
         """更新CHANGELOG.md文件"""
@@ -138,31 +145,50 @@ class RecipeParser:
         with open(changelog_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # 找到插入位置（在## [Unreleased]后面）
+        # 找到插入位置（在第一个## 后面）
         lines = content.split('\n')
         insert_index = None
         
+        # 查找第一个## Recipe Check或Recipe Update条目并删除
         for i, line in enumerate(lines):
-            if line.startswith('## [Unreleased]') and i < len(lines) - 1:
-                insert_index = i + 1
+            if line.startswith('## ✅ Recipe Check') or line.startswith('## 🔄 Recipe Update'):
+                j = i
+                # 找到下一个##标题或文件末尾
+                while j + 1 < len(lines) and not lines[j + 1].startswith('## '):
+                    j += 1
+                # 删除旧条目（包括后面的空行）
+                while j + 1 < len(lines) and lines[j + 1].strip() == '':
+                    j += 1
+                del lines[i:j + 1]
+                insert_index = i
                 break
         
-        if insert_index is not None:
-            # 如果已有[Unreleased]内容，先移除旧的
-            while insert_index < len(lines) and not lines[insert_index].startswith('## ['):
-                if lines[insert_index].strip():
+        # 如果没找到旧条目，在第一个##后插入
+        if insert_index is None:
+            for i, line in enumerate(lines):
+                if line.startswith('## ') or line.startswith('# Recipe Change Log'):
+                    if 'Recipe Change Log' in line:
+                        # 跳过标题和描述，找到合适的插入位置
+                        while i + 1 < len(lines) and not lines[i + 1].startswith('## '):
+                            i += 1
+                        insert_index = i + 1
+                    else:
+                        insert_index = i
                     break
-                insert_index += 1
-            
+        
+        if insert_index is not None:
             # 插入新内容
-            entry_lines = entry.strip().split('\n')[1:]  # 移除标题行
+            entry_lines = entry.strip().split('\n')
             lines[insert_index:insert_index] = entry_lines
+        else:
+            # 如果没找到插入位置，在文件末尾添加
+            lines.extend(['', entry.strip()])
             
-            # 写回文件
-            with open(changelog_path, 'w', encoding='utf-8') as f:
-                f.write('\n'.join(lines))
-            
-            print(f"📝 Updated CHANGELOG.md with recipe changes")
+        # 写回文件
+        with open(changelog_path, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(lines))
+        
+        print(f"Updated CHANGELOG.md with recipe changes")
         
     def parse_difficulty(self, content: str) -> int:
         """从内容中提取难度等级"""
