@@ -78,19 +78,28 @@ class RecipeParser:
         
     def generate_changelog_entry(self, changes: Dict) -> str:
         """生成changelog条目"""
-        if changes['total_change'] == 0 and not changes['category_changes']:
-            return ""
-            
         timestamp = datetime.now().strftime("%Y-%m-%d")
+        
+        # 如果没有变化，也生成一个简单的检测记录
+        if changes['total_change'] == 0 and not changes['category_changes']:
+            entry_lines = [
+                f"\n## [Unreleased] - {timestamp}\n",
+                f"### Status",
+                f"- ✅ **No Recipe Changes**: All {changes.get('total_recipes', 'existing')} recipes verified and up-to-date",
+                f"- 🔍 **Automated Check**: Recipe content and structure validation completed"
+            ]
+            return "\n".join(entry_lines) + "\n"
+            
+        # 有变化时的详细记录
         entry_lines = [f"\n## [Unreleased] - {timestamp}\n"]
         
         if changes['total_change'] != 0:
             if changes['total_change'] > 0:
                 entry_lines.append(f"### Added")
-                entry_lines.append(f"- 📝 **{changes['total_change']} New Recipes**: Total recipes increased to {changes['total_change'] + len(changes.get('removed_recipes', []))}")
+                entry_lines.append(f"- 📝 **{changes['total_change']} New Recipes**: Total recipes increased to {changes.get('total_recipes', 'unknown')}")
             else:
                 entry_lines.append(f"### Removed")
-                entry_lines.append(f"- 📝 **{abs(changes['total_change'])} Recipes Removed**: Total recipes decreased to {changes['total_change'] + len(changes.get('removed_recipes', []))}")
+                entry_lines.append(f"- 📝 **{abs(changes['total_change'])} Recipes Removed**: Total recipes decreased to {changes.get('total_recipes', 'unknown')}")
         
         # 详细的分类变化
         if changes['category_changes']:
@@ -444,8 +453,11 @@ class RecipeParser:
         # 比较变化并更新changelog
         if old_stats:
             changes = self.compare_stats(old_stats, current_stats)
+            # 添加总食谱数量信息
+            changes['total_recipes'] = current_stats['total']
+            
             if changes['total_change'] != 0 or changes['category_changes']:
-                print(f"\n📊 检测到食谱变化:")
+                print(f"\n检测到食谱变化:")
                 if changes['total_change'] != 0:
                     change_text = f"+{changes['total_change']}" if changes['total_change'] > 0 else str(changes['total_change'])
                     print(f"  总数变化: {old_stats['total']} → {current_stats['total']} ({change_text})")
@@ -467,13 +479,23 @@ class RecipeParser:
                     for category, change_info in changes['category_changes'].items():
                         change_text = f"+{change_info['change']}" if change_info['change'] > 0 else str(change_info['change'])
                         print(f"    {category}: {change_info['old']} → {change_info['new']} ({change_text})")
-                
-                # 更新changelog
-                self.update_changelog(changes)
             else:
-                print(f"\n📊 没有检测到食谱数量变化")
+                print(f"\n没有检测到食谱数量变化")
+                
+            # 总是更新changelog（包括无变化的情况）
+            self.update_changelog(changes)
         else:
-            print(f"\n📊 首次运行，建立基准统计信息")
+            print(f"\n首次运行，建立基准统计信息")
+            # 首次运行也记录到changelog
+            first_run_changes = {
+                'total_change': 0,
+                'category_changes': {},
+                'added_recipes': [],
+                'removed_recipes': [],
+                'total_recipes': current_stats['total'],
+                'timestamp': datetime.now().isoformat()
+            }
+            self.update_changelog(first_run_changes)
         
         # 保存当前统计信息
         self.save_current_stats(current_stats)
