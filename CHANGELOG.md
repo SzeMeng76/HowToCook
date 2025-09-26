@@ -2,12 +2,20 @@
 
 Automated tracking of recipe additions, removals, and modifications.
 
-## ✅ Recipe Check - 2025-08-18 06:54:01
+## 🔄 Recipe Update - 2025-09-26 04:33:52
 
-**Status**: No changes detected
-- Total recipes: 324 (verified)
-- All recipe content and structure validated
-- JSON data generation completed successfully
+**📝 1 New Recipes Added**
+- Total recipes: 325
+
+**Category Changes**:
+- 荤菜: 97 → 98 (+1)
+
+**Added Recipes**:
+- 煎烤羊排的做法
+- 酒酿醪糟的做法
+
+**Removed Recipes**:
+- 酒酿（醪糟）的做法
 ## [Unreleased] - 2025-01-18
 
 ### Status

@@ -4876,17 +4876,66 @@
     ],
     "ingredients": [
       {
+        "name": "鲜面条![扯面]",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鲜面条（扯面尤佳）![扯面](./chemian.png)",
+        "notes": null
+      },
+      {
         "name": "盐",
         "quantity": null,
         "unit": null,
-        "text_quantity": "- 盐 2g",
+        "text_quantity": "- 盐",
         "notes": null
       },
       {
         "name": "葱",
         "quantity": null,
         "unit": null,
-        "text_quantity": "- 葱 1 根",
+        "text_quantity": "- 葱",
+        "notes": null
+      },
+      {
+        "name": "蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蒜",
+        "notes": null
+      },
+      {
+        "name": "干辣椒面",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 干辣椒面（或秦椒面）",
+        "notes": null
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": null
+      },
+      {
+        "name": "香醋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香醋",
+        "notes": null
+      },
+      {
+        "name": "青菜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青菜（油菜或菠菜均可）",
         "notes": null
       },
       {
@@ -4894,41 +4943,6 @@
         "quantity": null,
         "unit": null,
         "text_quantity": "- 大蒜 3 瓣",
-        "notes": null
-      },
-      {
-        "name": "干辣椒面",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 干辣椒面 15g",
-        "notes": null
-      },
-      {
-        "name": "食用油",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 食用油 50ml",
-        "notes": null
-      },
-      {
-        "name": "生抽",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 生抽 10ml",
-        "notes": null
-      },
-      {
-        "name": "香醋",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 香醋 5ml",
-        "notes": null
-      },
-      {
-        "name": "青菜",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 青菜 50g",
         "notes": null
       },
       {
@@ -4942,7 +4956,7 @@
     "steps": [
       {
         "step": 1,
-        "description": "扯面的话, 用擀面杖（没有擀面杖,用手也行）上下两边轻压, 两手拽住左右两端,轻轻拉开"
+        "description": "扯面的话, 用擀面杖（没有擀面杖,用手也行）上下两边轻压, 两手拽住左侧和右侧两端,轻轻拉开"
       },
       {
         "step": 2,
@@ -14796,7 +14810,7 @@
       },
       {
         "step": 8,
-        "description": "将每一份小面团使用擀面杖擀成舌状后卷起, 再次醒面 10 分钟左右。"
+        "description": "将每一份小面团使用擀面杖擀成舌状后卷起, 再次醒面 10。"
       },
       {
         "step": 9,
@@ -18099,7 +18113,7 @@
   {
     "id": "vegetable_dish/油醋爆蛋",
     "name": "油醋爆蛋的做法",
-    "description": "油醋爆蛋是十分简单但是色香味一绝的一道菜，属于湘菜。制作十分简单，大约十分钟左右。",
+    "description": "油醋爆蛋是十分简单但是色香味一绝的一道菜，属于湘菜。制作十分简单，大约十分钟。",
     "source_path": "vegetable_dish/油醋爆蛋.md",
     "category": "素菜",
     "difficulty": 2,
@@ -29876,6 +29890,165 @@
     ]
   },
   {
+    "id": "meat_dish/煎烤羊排/煎烤羊排",
+    "name": "煎烤羊排的做法",
+    "description": "煎烤羊排是一道兼具炖煮与煎制工艺的菜品，外酥里嫩、香气四溢。既可作为家庭聚餐的硬菜，也能在宴会大餐中作为亮点端上桌。炖煮后的羊排酥烂入味，再经过煎制激发香料，味道浓郁而不腻。",
+    "source_path": "meat_dish/煎烤羊排/煎烤羊排.md",
+    "category": "荤菜",
+    "difficulty": 4,
+    "servings": 2,
+    "tags": [
+      "荤菜",
+      "煎烤羊排",
+      "复杂"
+    ],
+    "ingredients": [
+      {
+        "name": "羊排",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 羊排",
+        "notes": null
+      },
+      {
+        "name": "桂皮",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 桂皮",
+        "notes": null
+      },
+      {
+        "name": "花椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 花椒",
+        "notes": null
+      },
+      {
+        "name": "八角",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 八角",
+        "notes": null
+      },
+      {
+        "name": "白芷",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白芷",
+        "notes": null
+      },
+      {
+        "name": "香叶",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香叶",
+        "notes": null
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐",
+        "notes": null
+      },
+      {
+        "name": "料酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 料酒",
+        "notes": null
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 辣椒粉",
+        "notes": null
+      },
+      {
+        "name": "孜然粒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 孜然粒",
+        "notes": null
+      },
+      {
+        "name": "烧烤撒料",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 烧烤撒料",
+        "notes": null
+      },
+      {
+        "name": "孜然粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 孜然粉",
+        "notes": null
+      },
+      {
+        "name": "白芝麻",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白芝麻",
+        "notes": null
+      },
+      {
+        "name": "糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 糖",
+        "notes": null
+      },
+      {
+        "name": "盐 25g（注",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐 25g（注：若计划喝煮羊排的汤，则此处的盐在炖煮步骤中省略，在最后的煎烤步骤中加入）",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将羊排按照骨头分布，切成块状。"
+      },
+      {
+        "step": 2,
+        "description": "炒锅中加入冷水，放入全部羊排块，水沸腾后继续焯水 2 - 3 分钟，捞出备用。"
+      },
+      {
+        "step": 3,
+        "description": "将焯好水的羊排、桂皮、花椒、八角、白芷、香叶、料酒放入锅中（高压锅或普通锅）。"
+      },
+      {
+        "step": 4,
+        "description": "加入饮用水没过所有食材。如果使用高压锅，上汽后压 30 分钟。如果使用普通锅，炖煮 80 分钟。"
+      },
+      {
+        "step": 5,
+        "description": "将炖煮完成的羊排捞出，沥干水分，放入无油无水的炒锅 / 煎锅中。"
+      },
+      {
+        "step": 6,
+        "description": "中大火煎 6 - 7 分钟，直至羊排中的油脂被煎出，*表面呈金黄酥脆状态*。"
+      },
+      {
+        "step": 7,
+        "description": "锅中保留煎出的羊油，加入辣椒粉、孜然粒、烧烤撒料、孜然粉、白芝麻，翻炒均匀。"
+      },
+      {
+        "step": 8,
+        "description": "加入糖和盐（如果在炖煮步骤中未添加），翻炒均匀。"
+      },
+      {
+        "step": 9,
+        "description": "翻炒均匀后即可关火，盛盘。"
+      }
+    ]
+  },
+  {
     "id": "meat_dish/牛排/牛排",
     "name": "牛排的做法",
     "description": "![牛排成品](./牛排.jpg)",
@@ -33892,16 +34065,16 @@
     ]
   },
   {
-    "id": "meat_dish/豉汁蒸白鱔/豉汁蒸白鱔食谱",
+    "id": "meat_dish/豉汁蒸白鱔/豉汁蒸白鱔",
     "name": "豉汁蒸白鱔的做法",
     "description": "![豉汁蒸白鱔示例菜成品](./豉汁蒸白鱔.jpeg)",
-    "source_path": "meat_dish/豉汁蒸白鱔/豉汁蒸白鱔食谱.md",
+    "source_path": "meat_dish/豉汁蒸白鱔/豉汁蒸白鱔.md",
     "category": "荤菜",
     "difficulty": 3,
     "servings": 2,
     "tags": [
       "荤菜",
-      "豉汁蒸白鱔食谱"
+      "豉汁蒸白鱔"
     ],
     "ingredients": [
       {
@@ -33987,13 +34160,6 @@
         "unit": null,
         "text_quantity": "- 水 1 汤匙 （调酱汁）",
         "notes": null
-      },
-      {
-        "name": "红椒 少许",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 红椒 少许 （切丝，装饰用）",
-        "notes": null
       }
     ],
     "steps": [
@@ -34011,7 +34177,7 @@
       },
       {
         "step": 4,
-        "description": "可选：用少许盐和 1 茶匙生粉轻搓白鱔段，腌制 5 分钟后冲洗干净，去腥并增加嫩滑口感。"
+        "description": "可选：用 3g 盐和 1 茶匙生粉轻搓白鱔段，腌制 5 分钟后冲洗干净，去腥并增加嫩滑口感。"
       },
       {
         "step": 5,
@@ -34047,7 +34213,7 @@
       },
       {
         "step": 13,
-        "description": "在蒸锅或电蒸炉中加入适量水，烧开至沸腾。"
+        "description": "在蒸锅或电蒸炉中加入水 (500ml)，烧开。"
       },
       {
         "step": 14,
@@ -34067,7 +34233,7 @@
       },
       {
         "step": 18,
-        "description": "可再淋少许热麻油提升香气。"
+        "description": "可再淋热麻油提升香气。"
       },
       {
         "step": 19,
@@ -39058,7 +39224,7 @@
   },
   {
     "id": "drink/酒酿醪糟/酒酿醪糟",
-    "name": "酒酿（醪糟）的做法",
+    "name": "酒酿醪糟的做法",
     "description": "![酒酿成品](./酒酿醪糟.jpeg)",
     "source_path": "drink/酒酿醪糟/酒酿醪糟.md",
     "category": "饮品",
@@ -39113,7 +39279,7 @@
       },
       {
         "step": 2,
-        "description": "蒸熟后将米饭倒出摊凉，使用干净的工具将其摊至 30°C 左右（用温度计测量为宜，体感温热但不烫手）"
+        "description": "蒸熟后将米饭倒出摊凉，使用干净的工具将其摊至 30°C （用温度计测量为宜，体感温热但不烫手）"
       },
       {
         "step": 3,
@@ -39145,11 +39311,11 @@
       },
       {
         "step": 10,
-        "description": "可以继续二次发酵，加入适量清水增加酒酿产量（800g 水以内即可）"
+        "description": "可以继续二次发酵，加入 500ml 清水增加酒酿产量（800g 水以内即可）"
       },
       {
         "step": 11,
-        "description": "酒酿会一直持续发酵。如果想停止发酵，可以上锅蒸 10 分钟"
+        "description": "酒酿会一直持续发酵。如果想停止发酵，可以上锅蒸 10 分钟杀菌，或放入冰箱冷藏"
       }
     ]
   },
