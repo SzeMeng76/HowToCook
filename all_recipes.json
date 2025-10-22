@@ -22055,6 +22055,83 @@
     ]
   },
   {
+    "id": "vegetable_dish/鸡蛋花/鸡蛋花",
+    "name": "鸡蛋花的做法",
+    "description": "鸡蛋花是一道简单易做的菜。有着润肺止咳、缓解喉咙不适的家常食疗方。对于初学者，做一遍即可学会。有甜和咸两种做法。",
+    "source_path": "vegetable_dish/鸡蛋花/鸡蛋花.md",
+    "category": "素菜",
+    "difficulty": 1,
+    "servings": 1,
+    "tags": [
+      "素菜",
+      "鸡蛋花",
+      "简单"
+    ],
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋",
+        "notes": null
+      },
+      {
+        "name": "白糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白糖 （可选，制作甜口）",
+        "notes": null
+      },
+      {
+        "name": "食盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食盐 （可选，制作咸口）",
+        "notes": null
+      },
+      {
+        "name": "搅拌器",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 搅拌器 （可选）",
+        "notes": null
+      },
+      {
+        "name": "沸水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 沸水 100 - 150 ml",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将鸡蛋打入碗中。"
+      },
+      {
+        "step": 2,
+        "description": "使用筷子或搅拌器，顺着一个方向搅打蛋液，直至蛋清与蛋黄完全混合均匀，颜色一致。（此过程约需 1 - 2 分钟）"
+      },
+      {
+        "step": 3,
+        "description": "将糖或盐等调味料加入蛋液中，略微搅匀。"
+      },
+      {
+        "step": 4,
+        "description": "准备刚烧开的、100 ℃ 的沸水。"
+      },
+      {
+        "step": 5,
+        "description": "**一边用筷子快速搅拌碗中的蛋液，一边将沸水以细流状冲入蛋液中**。确保沸水与蛋液充分混合。"
+      },
+      {
+        "step": 6,
+        "description": "持续搅拌片刻，直至蛋液被完全烫熟，形成均匀的淡黄色蛋花。"
+      }
+    ]
+  },
+  {
     "id": "meat_dish/乡村啤酒鸭",
     "name": "乡村啤酒鸭的做法",
     "description": "![乡村啤酒鸭](https://jphuang-image.oss-cn-beijing.aliyuncs.com/beer/duck/%E6%88%90%E5%93%812.jpg)",
