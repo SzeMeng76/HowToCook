@@ -21542,6 +21542,140 @@
     ]
   },
   {
+    "id": "vegetable_dish/金钱蛋",
+    "name": "金钱蛋的做法",
+    "description": "金钱蛋是将水煮蛋切片煎至金黄，配以青红椒、豆豉爆炒而成。外焦里嫩，咸香微辣，形似铜钱寓意吉祥。简单快手又下饭的湘味家常～",
+    "source_path": "vegetable_dish/金钱蛋.md",
+    "category": "素菜",
+    "difficulty": 3,
+    "servings": 2,
+    "tags": [
+      "素菜",
+      "金钱蛋"
+    ],
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋",
+        "notes": null
+      },
+      {
+        "name": "线椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 线椒",
+        "notes": null
+      },
+      {
+        "name": "小米辣",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 小米辣",
+        "notes": null
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 豆瓣酱",
+        "notes": null
+      },
+      {
+        "name": "蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蒜",
+        "notes": null
+      },
+      {
+        "name": "小葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 小葱",
+        "notes": null
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 玉米淀粉（可选）",
+        "notes": null
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": null
+      },
+      {
+        "name": "蚝油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蚝油",
+        "notes": null
+      },
+      {
+        "name": "糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 糖",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "鸡蛋冷水下锅，大火煮开转小火煮 8 分钟"
+      },
+      {
+        "step": 2,
+        "description": "用自来水冲凉，方便剥皮"
+      },
+      {
+        "step": 3,
+        "description": "蒜切沫（粒径不大于 1 mm），线椒和小米辣切小粒（约 2-3 mm）"
+      },
+      {
+        "step": 4,
+        "description": "每个熟鸡蛋沿短轴切成体积类似的 4 份"
+      },
+      {
+        "step": 5,
+        "description": "如果打算沾淀粉，每片鸡蛋粘上淀粉，抖掉多余的淀粉"
+      },
+      {
+        "step": 6,
+        "description": "锅内放入 25 ml 油（如果不沾淀粉，放 20 ml），放入熟鸡蛋片"
+      },
+      {
+        "step": 7,
+        "description": "煎至微焦黄后，补 10 ml 油（如果不沾淀粉，补 10 ml），翻面"
+      },
+      {
+        "step": 8,
+        "description": "第二面微黄后，加入线椒、小米辣、蒜末煎制约一分钟，翻面"
+      },
+      {
+        "step": 9,
+        "description": "接着加豆瓣酱煎制约几十秒，翻面"
+      },
+      {
+        "step": 10,
+        "description": "生抽、耗油、糖调成汁，轻轻颠锅后即可出锅"
+      }
+    ]
+  },
+  {
     "id": "vegetable_dish/陕北熬豆角",
     "name": "陕北熬豆角的做法",
     "description": "陕北熬豆角是一种对初学者极其友善的菜，因其制作方式使用`熬`的方式，食材可多可少，可有可无，几乎不存在失败的可能性。",

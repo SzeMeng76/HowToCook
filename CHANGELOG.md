@@ -2,12 +2,16 @@
 
 Automated tracking of recipe additions, removals, and modifications.
 
-## ✅ Recipe Check - 2025-10-25 02:54:21
+## 🔄 Recipe Update - 2025-10-31 07:05:02
 
-**Status**: No changes detected
-- Total recipes: 326 (verified)
-- All recipe content and structure validated
-- JSON data generation completed successfully
+**📝 1 New Recipes Added**
+- Total recipes: 327
+
+**Category Changes**:
+- 素菜: 55 → 56 (+1)
+
+**Added Recipes**:
+- 金钱蛋的做法
 ## [Unreleased] - 2025-01-18
 
 ### Status
