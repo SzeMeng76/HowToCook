@@ -2,16 +2,17 @@
 
 Automated tracking of recipe additions, removals, and modifications.
 
-## 🔄 Recipe Update - 2025-10-31 07:05:02
+## 🔄 Recipe Update - 2025-11-04 06:09:34
 
-**📝 1 New Recipes Added**
-- Total recipes: 327
+**📝 2 New Recipes Added**
+- Total recipes: 329
 
 **Category Changes**:
-- 素菜: 55 → 56 (+1)
+- 主食: 48 → 50 (+2)
 
 **Added Recipes**:
-- 金钱蛋的做法
+- 可乐炒饭的做法
+- 鲜肉烧卖的做法
 ## [Unreleased] - 2025-01-18
 
 ### Status

@@ -256,6 +256,128 @@
     ]
   },
   {
+    "id": "staple/可乐炒饭",
+    "name": "可乐炒饭的做法",
+    "description": "可乐炒饭用可乐代替糖分带来焦香微甜的风味。懒人福音，只需简单几步就能做出独特口感的炒饭，香滑鸡蛋配上浓郁酱汁，每一口都是惊喜。",
+    "source_path": "staple/可乐炒饭.md",
+    "category": "主食",
+    "difficulty": 3,
+    "servings": 1,
+    "tags": [
+      "主食",
+      "可乐炒饭"
+    ],
+    "ingredients": [
+      {
+        "name": "米饭",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 米饭",
+        "notes": null
+      },
+      {
+        "name": "可乐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 可乐（含糖或无糖均可）",
+        "notes": null
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋",
+        "notes": null
+      },
+      {
+        "name": "火腿肠",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 火腿肠（或午餐肉，可选）",
+        "notes": null
+      },
+      {
+        "name": "油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 油",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": null
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 老抽",
+        "notes": null
+      },
+      {
+        "name": "蚝油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蚝油",
+        "notes": null
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 豆瓣酱（可选）",
+        "notes": null
+      },
+      {
+        "name": "葱花",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱花",
+        "notes": null
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 胡椒粉（白胡椒、黑胡椒均可）",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将锅烧热后，加入 25 ml 油，放两个鸡蛋，煎至底部完全凝固"
+      },
+      {
+        "step": 2,
+        "description": "翻面，煎至两面完全凝固"
+      },
+      {
+        "step": 3,
+        "description": "关火，将鸡蛋取出，剪成 2-5 cm² 的小块后放回锅中（也可以直接用锅铲铲碎）"
+      },
+      {
+        "step": 4,
+        "description": "重新开火，倒入可乐、生抽、老抽、豆瓣酱、蚝油，搅拌均匀"
+      },
+      {
+        "step": 5,
+        "description": "加热到锅内液体剩 1/3，倒入米饭和火腿肠翻炒"
+      },
+      {
+        "step": 6,
+        "description": "翻炒均匀后，改小火，锅内食物中心挖一个洞，打入 1 个鸡蛋，盖上锅盖，焖 2 分钟"
+      },
+      {
+        "step": 7,
+        "description": "开盖翻炒至第三颗鸡蛋熟透，撒上葱花和胡椒粉，出锅"
+      }
+    ]
+  },
+  {
     "id": "staple/基础牛奶面包/基础牛奶面包",
     "name": "基础牛奶面包的做法",
     "description": "![牛奶面包成品](./1-1成品.jpg)",
@@ -5174,6 +5296,227 @@
       {
         "step": 5,
         "description": "盛盘，稍凉后即可享用。"
+      }
+    ]
+  },
+  {
+    "id": "staple/鲜肉烧卖",
+    "name": "鲜肉烧卖的做法",
+    "description": "鲜肉烧卖以肥瘦三七的猪肉为主馅，融入冬笋、皮冻与香菇，蒸出半透明皮子与多汁内馅，一口咬下，汤汁四溢，咸鲜交织，尽显江南精致～",
+    "source_path": "staple/鲜肉烧卖.md",
+    "category": "主食",
+    "difficulty": 4,
+    "servings": 2,
+    "tags": [
+      "主食",
+      "鲜肉烧卖",
+      "复杂"
+    ],
+    "ingredients": [
+      {
+        "name": "烧卖皮",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 烧卖皮",
+        "notes": null
+      },
+      {
+        "name": "猪肉末",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 猪肉末（肥瘦 3:7，如果想做低脂版本，用猪里脊肉或猪前腿肉）",
+        "notes": null
+      },
+      {
+        "name": "生姜末",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生姜末",
+        "notes": null
+      },
+      {
+        "name": "葱末",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱末（只用绿色部分）",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": null
+      },
+      {
+        "name": "料酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 料酒",
+        "notes": null
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐",
+        "notes": null
+      },
+      {
+        "name": "糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 糖（可选）",
+        "notes": null
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白胡椒粉（可选）",
+        "notes": null
+      },
+      {
+        "name": "芝麻油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 芝麻油",
+        "notes": null
+      },
+      {
+        "name": "高汤或浓汤宝",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 高汤或浓汤宝",
+        "notes": null
+      },
+      {
+        "name": "冬笋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 冬笋（可选）",
+        "notes": null
+      },
+      {
+        "name": "皮冻",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 皮冻（可选但推荐）",
+        "notes": null
+      },
+      {
+        "name": "香菇",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香菇（或干香菇泡发，可选）",
+        "notes": null
+      },
+      {
+        "name": "虾仁",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 虾仁（可选）",
+        "notes": null
+      },
+      {
+        "name": "猪油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 猪油（或鸡油）（低脂版本）",
+        "notes": null
+      },
+      {
+        "name": "复配食品增稠剂",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 复配食品增稠剂（κ-卡拉胶 45%、瓜尔胶 35%、氯化钾 20%）（或玉米淀粉）（低脂版本）",
+        "notes": null
+      },
+      {
+        "name": "蒸笼垫",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蒸笼垫（推荐顺序为刷油竹垫、草垫、粽叶、带孔硅油纸，传统上用草垫，现在更多用带孔硅油纸）",
+        "notes": null
+      },
+      {
+        "name": "高汤",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 高汤 30 mL",
+        "notes": null
+      },
+      {
+        "name": "浓汤宝",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 浓汤宝 6 g（建议家乐牌，约 1/8 块）",
+        "notes": null
+      },
+      {
+        "name": "猪油15 g",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 猪油（或鸡油）15 g",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "（低脂版本）取 10 mL 冷水，加入复配食品增稠剂，调成糊糊"
+      },
+      {
+        "step": 2,
+        "description": "（低脂版本）加入 25 mL 开水，搅拌至半透明凝胶"
+      },
+      {
+        "step": 3,
+        "description": "（低脂版本）冷却后混入 280 g 纯瘦肉糜 + 15 g 融化猪油（或鸡油）"
+      },
+      {
+        "step": 4,
+        "description": "将猪肉末与生姜末、葱末混合，加入酱油、料酒、盐、糖、白胡椒粉，顺一个方向搅拌上劲"
+      },
+      {
+        "step": 5,
+        "description": "如果使用浓汤宝，取浓汤宝块加入 15 mL 热水混合，搅拌至乳浊液完全分散，再加入 15 mL 常温水"
+      },
+      {
+        "step": 6,
+        "description": "慢慢加入水或高汤，继续搅拌，直到馅料吸收水分，变得粘稠，如果觉得肉馅太稠，补 5 mL 水继续搅拌"
+      },
+      {
+        "step": 7,
+        "description": "加入可选配料（冬笋、皮冻、香菇），最后淋上芝麻油，拌匀。冷藏 30 分钟，让味道融合"
+      },
+      {
+        "step": 8,
+        "description": "取一张烧卖皮，放上约 20-25 g 馅料（别太贪心，否则包不住）"
+      },
+      {
+        "step": 9,
+        "description": "用虎口轻轻收拢皮子边缘，形成“花瓶”状，顶部留开口"
+      },
+      {
+        "step": 10,
+        "description": "用手指轻轻压实底部，确保站立稳定"
+      },
+      {
+        "step": 11,
+        "description": "如果要加虾仁，在顶部加一颗虾仁"
+      },
+      {
+        "step": 12,
+        "description": "重复包烧卖的步骤，直到包好"
+      },
+      {
+        "step": 13,
+        "description": "放在蒸笼里，间隔开，避免粘连"
+      },
+      {
+        "step": 14,
+        "description": "大火蒸 8-10 分钟即可"
       }
     ]
   },
