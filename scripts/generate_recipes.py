@@ -300,56 +300,57 @@ class RecipeParser:
     def parse_steps(self, content: str) -> List[Dict[str, Any]]:
         """解析制作步骤"""
         steps = []
-        
-        # 查找操作部分 - 修正正则表达式
-        operations_match = re.search(r'## 操作\s*\n(.*?)(?=\n##|\n$)', content, re.DOTALL)
+
+        # 查找操作部分 - 只在遇到二级标题(## )时停止，允许包含三级标题(### )
+        operations_match = re.search(r'## 操作\s*\n(.*?)(?=\n## [^#]|\n$)', content, re.DOTALL)
         if operations_match:
             operations_section = operations_match.group(1)
             step_num = 1
-            
-            for line in operations_section.split('\n'):
-                line = line.strip()
-                
+            current_step = None
+
+            lines = operations_section.split('\n')
+            for i, line in enumerate(lines):
+                # 检查是否为嵌套列表项（以空格开头的列表项）
+                is_nested = len(line) > 0 and line[0] == ' ' and line.strip() and line.strip()[0] in ['-', '*', '+']
+                stripped_line = line.strip()
+
+                # 如果是嵌套项，将其添加到当前步骤
+                if is_nested and current_step is not None:
+                    # 提取嵌套项内容
+                    nested_content = stripped_line[1:].strip()
+                    if nested_content and nested_content != "--":
+                        # 将嵌套内容添加到当前步骤描述中
+                        current_step['description'] += '\n  ' + nested_content
+                    continue
+
+                # 处理顶级列表项
+                description = None
+
                 # 支持破折号格式: - 步骤描述
-                if line.startswith('-') and len(line) > 2:
-                    description = line[1:].strip()
-                    if description and description != "--":
-                        steps.append({
-                            'step': step_num,
-                            'description': description
-                        })
-                        step_num += 1
-                        
+                if stripped_line.startswith('-') and len(stripped_line) > 2:
+                    description = stripped_line[1:].strip()
+
                 # 支持星号格式: * 步骤描述
-                elif line.startswith('*') and len(line) > 2:
-                    description = line[1:].strip()
-                    if description and description != "--":
-                        steps.append({
-                            'step': step_num,
-                            'description': description
-                        })
-                        step_num += 1
-                        
+                elif stripped_line.startswith('*') and len(stripped_line) > 2:
+                    description = stripped_line[1:].strip()
+
                 # 支持加号格式: + 步骤描述
-                elif line.startswith('+') and len(line) > 2:
-                    description = line[1:].strip()
-                    if description and description != "--":
-                        steps.append({
-                            'step': step_num,
-                            'description': description
-                        })
-                        step_num += 1
-                        
+                elif stripped_line.startswith('+') and len(stripped_line) > 2:
+                    description = stripped_line[1:].strip()
+
                 # 支持数字编号格式: 1. 步骤描述
-                elif re.match(r'^\d+\.\s+', line):
-                    description = re.sub(r'^\d+\.\s+', '', line).strip()
-                    if description and description != "--":
-                        steps.append({
-                            'step': step_num,
-                            'description': description
-                        })
-                        step_num += 1
-        
+                elif re.match(r'^\d+\.\s+', stripped_line):
+                    description = re.sub(r'^\d+\.\s+', '', stripped_line).strip()
+
+                # 如果找到有效的顶级步骤描述
+                if description and description != "--":
+                    current_step = {
+                        'step': step_num,
+                        'description': description
+                    }
+                    steps.append(current_step)
+                    step_num += 1
+
         return steps
         
     def parse_tags(self, content: str, category: str, file_path: Path) -> List[str]:
