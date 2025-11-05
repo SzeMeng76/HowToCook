@@ -11597,6 +11597,240 @@
     ]
   },
   {
+    "id": "aquatic/肉蟹煲",
+    "name": "肉蟹煲的做法",
+    "description": "肉蟹煲是一道酱香浓郁的煲类菜品，以鲜活肉蟹为主角，搭配炖至软糯的土豆和 Q 弹年糕。秘制酱汁慢火炖煮，让蟹肉充分吸收汤汁精华，口感鲜甜微辣，汤汁拌饭更是一绝～富含优质蛋白和微量元素，适合朋友聚餐分享！",
+    "source_path": "aquatic/肉蟹煲.md",
+    "category": "水产",
+    "difficulty": 4,
+    "servings": 2,
+    "tags": [
+      "水产",
+      "肉蟹煲",
+      "复杂"
+    ],
+    "ingredients": [
+      {
+        "name": "肉蟹",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 肉蟹（推荐优先级从高到低：缅甸黑蟹、青蟹、梭子蟹、大闸蟹）",
+        "notes": null
+      },
+      {
+        "name": "虾",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 虾（可选）",
+        "notes": null
+      },
+      {
+        "name": "土豆",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 土豆",
+        "notes": null
+      },
+      {
+        "name": "年糕",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 年糕（推荐硬年糕，新鲜年糕亦可）",
+        "notes": null
+      },
+      {
+        "name": "洋葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 洋葱",
+        "notes": null
+      },
+      {
+        "name": "大蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 大蒜",
+        "notes": null
+      },
+      {
+        "name": "生姜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生姜",
+        "notes": null
+      },
+      {
+        "name": "干辣椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 干辣椒",
+        "notes": null
+      },
+      {
+        "name": "青椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青椒",
+        "notes": null
+      },
+      {
+        "name": "红椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 红椒",
+        "notes": null
+      },
+      {
+        "name": "蚝油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蚝油",
+        "notes": null
+      },
+      {
+        "name": "海鲜酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 海鲜酱（可选）",
+        "notes": null
+      },
+      {
+        "name": "黄豆酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 黄豆酱（可选）",
+        "notes": null
+      },
+      {
+        "name": "甜面酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 甜面酱（或烧烤酱，可选）",
+        "notes": null
+      },
+      {
+        "name": "番茄酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 番茄酱（没有就挤半颗番茄碾碎）",
+        "notes": null
+      },
+      {
+        "name": "淀粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 淀粉（玉米淀粉或土豆淀粉）",
+        "notes": null
+      },
+      {
+        "name": "冰糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 冰糖",
+        "notes": null
+      },
+      {
+        "name": "鸡精",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡精",
+        "notes": null
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白胡椒粉",
+        "notes": null
+      },
+      {
+        "name": "料酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 料酒（可使用黄酒替代）",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": null
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 老抽",
+        "notes": null
+      },
+      {
+        "name": "啤酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 啤酒",
+        "notes": null
+      },
+      {
+        "name": "清水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 清水",
+        "notes": null
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油 30-50 ml（如果放了虾，追加 10 ml；油炸另需 500 mL）",
+        "notes": null
+      },
+      {
+        "name": "海鲜酱 15 g（替代",
+        "quantity": 12.0,
+        "unit": "g",
+        "text_quantity": "- 海鲜酱 15 g（替代：蚝油 12 g + 白砂糖 3 g）",
+        "notes": null
+      },
+      {
+        "name": "黄豆酱 15 g（替代",
+        "quantity": 12.0,
+        "unit": "ml",
+        "text_quantity": "- 黄豆酱 15 g（替代：生抽 12 ml + 老抽 2 ml + 白糖 1 g）",
+        "notes": null
+      },
+      {
+        "name": "甜面酱 10 g（替代",
+        "quantity": 5.5,
+        "unit": "g",
+        "text_quantity": "- 甜面酱 10 g（替代：白糖 5.5 g + 生抽 4 ml + 老抽 0.5 ml）",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "土豆切块为各边均为 3 cm 的立方体，青/红椒切成边长 4 cm 的菱形片，洋葱切成 3 cm 宽的月牙瓣，年糕切成 1 cm 厚片"
+      },
+      {
+        "step": 2,
+        "description": "螃蟹切成 50-80 g 的块，裹薄淀粉，180 °C 油温炸 1 分钟捞出"
+      },
+      {
+        "step": 3,
+        "description": "锅中放油，蒜姜干辣椒爆香，放所有酱料 + 冰糖小火炒出红油，注意别糊底"
+      },
+      {
+        "step": 4,
+        "description": "加螃蟹、土豆、啤酒和清水，烧开转小火炖 12 分钟"
+      },
+      {
+        "step": 5,
+        "description": "放年糕和青红椒，开大火收汁到汤汁可以附着在物品表面，最后撒白胡椒粉"
+      }
+    ]
+  },
+  {
     "id": "aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾",
     "name": "芥末黄油罗氏虾的做法",
     "description": "![芥末黄油罗氏虾](./芥末黄油罗氏虾.jpg)\n这是一道做法简单，味道美味，具有新意的海鲜菜。",
@@ -19599,13 +19833,6 @@
         "notes": null
       },
       {
-        "name": "盐",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 盐",
-        "notes": null
-      },
-      {
         "name": "油",
         "quantity": null,
         "unit": null,
@@ -19630,35 +19857,21 @@
         "name": "蚝油",
         "quantity": null,
         "unit": null,
-        "text_quantity": "- 蚝油",
+        "text_quantity": "- 蚝油（可选但推荐）",
         "notes": null
       },
       {
         "name": "白糖",
         "quantity": null,
         "unit": null,
-        "text_quantity": "- 白糖",
-        "notes": null
-      },
-      {
-        "name": "咖喱块",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 咖喱块 115g",
-        "notes": null
-      },
-      {
-        "name": "土豆",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 土豆 2 个（每个土豆大约重 120g，共约 240g）",
+        "text_quantity": "- 白糖（可选）",
         "notes": null
       },
       {
         "name": "食用油",
         "quantity": null,
         "unit": null,
-        "text_quantity": "- 食用油 10-15ml",
+        "text_quantity": "- 食用油 35-50 mL",
         "notes": null
       }
     ],
@@ -20406,6 +20619,110 @@
       {
         "step": 7,
         "description": "料汁稍微收汁，煮沸后稍等十来秒吧，后直接浇在菜心上，不要特别多，但蒜末还是很给力的不要少蒜"
+      }
+    ]
+  },
+  {
+    "id": "vegetable_dish/皮蛋豆腐",
+    "name": "皮蛋豆腐的做法",
+    "description": "皮蛋豆腐是一道简单易做的菜，一般初学者只需要 5 分钟即可完成。松花蛋 Q 弹滑嫩，配上嫩豆腐的清爽，咸香开胃超下饭！",
+    "source_path": "vegetable_dish/皮蛋豆腐.md",
+    "category": "素菜",
+    "difficulty": 1,
+    "servings": 1,
+    "tags": [
+      "素菜",
+      "皮蛋豆腐",
+      "简单"
+    ],
+    "ingredients": [
+      {
+        "name": "皮蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 皮蛋",
+        "notes": null
+      },
+      {
+        "name": "内酯豆腐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 内酯豆腐",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": null
+      },
+      {
+        "name": "白砂糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白砂糖",
+        "notes": null
+      },
+      {
+        "name": "醋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 醋（推荐镇江香醋）",
+        "notes": null
+      },
+      {
+        "name": "香油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香油（可选）",
+        "notes": null
+      },
+      {
+        "name": "辣椒油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 辣椒油（可选）",
+        "notes": null
+      },
+      {
+        "name": "花生碎",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 花生碎（可选）",
+        "notes": null
+      },
+      {
+        "name": "葱花",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱花（可选）",
+        "notes": null
+      },
+      {
+        "name": "香菜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香菜（可选）",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "先把皮蛋剥壳，切成四瓣。"
+      },
+      {
+        "step": 2,
+        "description": "嫩豆腐切块或者切片放中间。"
+      },
+      {
+        "step": 3,
+        "description": "将生抽、白砂糖、醋、香油、辣椒油调成酱汁，淋上去。"
+      },
+      {
+        "step": 4,
+        "description": "最后可选撒上花生碎、葱花、香菜。"
       }
     ]
   },
@@ -21581,7 +21898,7 @@
       },
       {
         "step": 2,
-        "description": "锅里先倒少量油，烧至微微冒烟，此时拿起锅将国内的热油向四周浸润，让油均匀覆盖锅底，然后再倒入剩余的油([热锅凉油法](https://cook.aiursoft.cn/tips/learn/%E5%AD%A6%E4%B9%A0%E7%82%92%E4%B8%8E%E7%85%8E/?h=%E7%83%AD%E9%94%85#_5))。"
+        "description": "锅里先倒少量油，烧至微微冒烟，此时拿起锅将国内的热油向四周浸润，让油均匀覆盖锅底，然后再倒入剩余的油([热锅凉油法](https://cook.aiursoft.com/tips/learn/%E5%AD%A6%E4%B9%A0%E7%82%92%E4%B8%8E%E7%85%8E/?h=%E7%83%AD%E9%94%85#_5))。"
       },
       {
         "step": 3,
