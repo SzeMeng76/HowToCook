@@ -7562,6 +7562,104 @@
     ]
   },
   {
+    "id": "breakfast/微波炉蒸蛋",
+    "name": "微波炉蒸蛋的做法",
+    "description": "嫩滑细腻、快速上桌的高蛋白早餐，用微波炉即可完成，约 10 分钟完成，适合 1-2 人食用。",
+    "source_path": "breakfast/微波炉蒸蛋.md",
+    "category": "早餐",
+    "difficulty": 1,
+    "servings": 2,
+    "tags": [
+      "早餐",
+      "微波炉蒸蛋",
+      "简单"
+    ],
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋",
+        "notes": null
+      },
+      {
+        "name": "温水或高汤",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 温水或高汤",
+        "notes": null
+      },
+      {
+        "name": "食盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食盐",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽（可选）",
+        "notes": null
+      },
+      {
+        "name": "香油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香油",
+        "notes": null
+      },
+      {
+        "name": "耐热碗",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 耐热碗",
+        "notes": null
+      },
+      {
+        "name": "保鲜膜或微波炉专用盖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 保鲜膜或微波炉专用盖",
+        "notes": null
+      },
+      {
+        "name": "香油 几滴",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香油 几滴（出锅用）",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将鸡蛋打散，加入温水/高汤、盐、生抽，轻轻搅匀，尽量不要起泡。"
+      },
+      {
+        "step": 2,
+        "description": "将蛋液过筛倒入耐热碗中，表面若有气泡可用牙签轻戳。"
+      },
+      {
+        "step": 3,
+        "description": "覆盖保鲜膜并扎 8-10 个小孔，或使用微波炉专用盖（留缝隙）。"
+      },
+      {
+        "step": 4,
+        "description": "放入微波炉中加热：\n  700W：1 分 30 秒 → 视情况再加热 20-30 秒至表面刚凝。\n  600W：约 1 分 40 秒–2 分 10 秒。\n  800W：约 1 分 10 秒–1 分 40 秒。"
+      },
+      {
+        "step": 5,
+        "description": "加热完成后取出静置 1 分钟，让余温使中心完全熟化。"
+      },
+      {
+        "step": 6,
+        "description": "淋上香油，撒葱花即可食用。"
+      }
+    ]
+  },
+  {
     "id": "breakfast/微波炉蛋糕",
     "name": "微波炉蛋糕的做法",
     "description": "微波炉\"叮\"蛋糕，大约需要 2 分钟 就能搞定！初学者所需时间预计延长至 20 分钟。",

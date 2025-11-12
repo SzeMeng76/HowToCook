@@ -2,18 +2,16 @@
 
 Automated tracking of recipe additions, removals, and modifications.
 
-## 🔄 Recipe Update - 2025-11-05 02:37:09
+## 🔄 Recipe Update - 2025-11-12 15:36:11
 
-**📝 2 New Recipes Added**
-- Total recipes: 331
+**📝 1 New Recipes Added**
+- Total recipes: 332
 
 **Category Changes**:
-- 水产: 24 → 25 (+1)
-- 素菜: 56 → 57 (+1)
+- 早餐: 22 → 23 (+1)
 
 **Added Recipes**:
-- 皮蛋豆腐的做法
-- 肉蟹煲的做法
+- 微波炉蒸蛋的做法
 ## [Unreleased] - 2025-01-18
 
 ### Status
