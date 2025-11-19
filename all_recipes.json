@@ -19260,6 +19260,178 @@
     ]
   },
   {
+    "id": "vegetable_dish/家常日本豆腐",
+    "name": "家常日本豆腐的做法",
+    "description": "家常日本豆腐用金黄脆壳裹住日本豆腐的娇嫩，三分钟快炒成就餐桌之光，脆嫩咸香暴击味蕾。",
+    "source_path": "vegetable_dish/家常日本豆腐.md",
+    "category": "素菜",
+    "difficulty": 3,
+    "servings": 2,
+    "tags": [
+      "素菜",
+      "家常日本豆腐"
+    ],
+    "ingredients": [
+      {
+        "name": "日本豆腐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 日本豆腐（玉子豆腐）",
+        "notes": null
+      },
+      {
+        "name": "青椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青椒",
+        "notes": null
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 胡萝卜",
+        "notes": null
+      },
+      {
+        "name": "火腿肠",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 火腿肠（可选）",
+        "notes": null
+      },
+      {
+        "name": "黑木耳",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 黑木耳（可选）",
+        "notes": null
+      },
+      {
+        "name": "洋葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 洋葱（可选）",
+        "notes": null
+      },
+      {
+        "name": "生粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生粉",
+        "notes": null
+      },
+      {
+        "name": "蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蒜",
+        "notes": null
+      },
+      {
+        "name": "油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 油（煎豆腐用，能没过一大半就行）",
+        "notes": null
+      },
+      {
+        "name": "生抽 8 ml",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽 8 ml",
+        "notes": null
+      },
+      {
+        "name": "蚝油 15 ml",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蚝油 15 ml",
+        "notes": null
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐（咸鲜口）",
+        "notes": null
+      },
+      {
+        "name": "鸡精",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡精（咸鲜口，可选）",
+        "notes": null
+      },
+      {
+        "name": "番茄酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 番茄酱（酸甜口）",
+        "notes": null
+      },
+      {
+        "name": "白砂糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白砂糖（酸甜口）",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽 8 ml",
+        "notes": null
+      },
+      {
+        "name": "蚝油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蚝油 15 ml",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "胡萝卜切片，尖椒切薄块，葱蒜碎切好"
+      },
+      {
+        "step": 2,
+        "description": "把买好的日本豆腐打开袋子切好，切成大概 1 cm 厚的圆柱体"
+      },
+      {
+        "step": 3,
+        "description": "生粉放到平盘中，准备给豆腐裹面"
+      },
+      {
+        "step": 4,
+        "description": "轻轻把豆腐放到面粉上，上下两面和周边都裹上面粉，注意不要包裹的太厚"
+      },
+      {
+        "step": 5,
+        "description": "在平底锅里放 150 ml 油，油能没过豆腐一大半即可，看边缘颜色变成金黄，翻面煎就可以了"
+      },
+      {
+        "step": 6,
+        "description": "两边都煎好的时候捞出来放在干净的盘里备用"
+      },
+      {
+        "step": 7,
+        "description": "在炒锅中倒入 10-15 ml 油，放入葱蒜，爆香后放入青椒、胡萝卜、火腿肠、黑木耳"
+      },
+      {
+        "step": 8,
+        "description": "加入蚝油、生抽、盐、鸡精、白砂糖、番茄酱"
+      },
+      {
+        "step": 9,
+        "description": "轻轻翻炒至颜色均匀"
+      }
+    ]
+  },
+  {
     "id": "vegetable_dish/小炒藕丁/小炒藕丁",
     "name": "小炒藕丁的做法",
     "description": "![小炒藕丁成品](./小炒藕丁.jpg)",
