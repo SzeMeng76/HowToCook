@@ -2,16 +2,20 @@
 
 Automated tracking of recipe additions, removals, and modifications.
 
-## 🔄 Recipe Update - 2025-11-19 03:30:11
+## 🔄 Recipe Update - 2025-11-24 11:34:52
 
-**📝 1 New Recipes Added**
-- Total recipes: 336
+**📝 3 New Recipes Added**
+- Total recipes: 339
 
 **Category Changes**:
-- 素菜: 57 → 58 (+1)
+- 主食: 51 → 52 (+1)
+- 汤羹: 21 → 22 (+1)
+- 荤菜: 99 → 100 (+1)
 
 **Added Recipes**:
-- 家常日本豆腐的做法
+- 猪油拌饭的做法
+- 腐乳肉的做法
+- 黄瓜皮蛋汤的做法
 ## [Unreleased] - 2025-01-18
 
 ### Status

@@ -3462,6 +3462,93 @@
     ]
   },
   {
+    "id": "staple/猪油拌饭",
+    "name": "猪油拌饭的做法",
+    "description": "猪油拌饭是南方小朋友不爱吃饭时的 fallback，晶莹米粒裹着琥珀色猪油，酱油的咸鲜与葱花的清香在舌尖共舞，每一口都是碳水和脂肪的完美交响曲。",
+    "source_path": "staple/猪油拌饭.md",
+    "category": "主食",
+    "difficulty": 1,
+    "servings": 2,
+    "tags": [
+      "主食",
+      "猪油拌饭",
+      "简单"
+    ],
+    "ingredients": [
+      {
+        "name": "米饭",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 米饭（推荐用粳米）",
+        "notes": null
+      },
+      {
+        "name": "猪油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 猪油",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽（推荐用李锦记或海天）",
+        "notes": null
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 老抽",
+        "notes": null
+      },
+      {
+        "name": "蚝油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蚝油（可选）",
+        "notes": null
+      },
+      {
+        "name": "葱花",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱花（可选）",
+        "notes": null
+      },
+      {
+        "name": "猪油渣",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 猪油渣（可选）",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "碗底铺猪油"
+      },
+      {
+        "step": 2,
+        "description": "加入米饭"
+      },
+      {
+        "step": 3,
+        "description": "淋上酱油与蚝油"
+      },
+      {
+        "step": 4,
+        "description": "撒上葱花和猪油渣"
+      },
+      {
+        "step": 5,
+        "description": "搅拌均匀"
+      }
+    ]
+  },
+  {
     "id": "staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭",
     "name": "电饭煲三文鱼炊饭的做法",
     "description": "![电饭煲三文鱼炊饭示例菜成品](./电饭煲三文鱼炊饭.webp)",
@@ -16050,6 +16137,104 @@
       {
         "step": 7,
         "description": "加入食盐，趁热饮用"
+      }
+    ]
+  },
+  {
+    "id": "soup/黄瓜皮蛋汤",
+    "name": "黄瓜皮蛋汤的做法",
+    "description": "黄瓜皮蛋汤是快手的家常汤品，清淡中带着焦香，暖心暖胃又不油腻。简单到厨房小白都能轻松搞定哟！",
+    "source_path": "soup/黄瓜皮蛋汤.md",
+    "category": "汤羹",
+    "difficulty": 2,
+    "servings": 2,
+    "tags": [
+      "汤羹",
+      "黄瓜皮蛋汤",
+      "简单"
+    ],
+    "ingredients": [
+      {
+        "name": "黄瓜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 黄瓜",
+        "notes": null
+      },
+      {
+        "name": "皮蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 皮蛋",
+        "notes": null
+      },
+      {
+        "name": "大蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 大蒜",
+        "notes": null
+      },
+      {
+        "name": "小葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 小葱",
+        "notes": null
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油（推荐猪油）",
+        "notes": null
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐",
+        "notes": null
+      },
+      {
+        "name": "鸡精",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡精（可选）",
+        "notes": null
+      },
+      {
+        "name": "水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 水 400-500 ml",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "黄瓜洗净，切成 0.5-1.2 mm 厚的薄片"
+      },
+      {
+        "step": 2,
+        "description": "葱洗净切成末，蒜用刀拍几下去皮，对半切一下"
+      },
+      {
+        "step": 3,
+        "description": "皮蛋剥去壳，然后每个切成 6-8 份。锅里倒入油，放入切好的皮蛋和大蒜"
+      },
+      {
+        "step": 4,
+        "description": "小火炒至皮蛋和大蒜表面有些焦黄，加入水，转大火烧开"
+      },
+      {
+        "step": 5,
+        "description": "放入黄瓜片。水再次沸腾以后立马关火，放入盐、鸡精调味即可出锅"
+      },
+      {
+        "step": 6,
+        "description": "装入碗中，再撒上葱花即可"
       }
     ]
   },
@@ -35081,6 +35266,136 @@
       {
         "step": 3,
         "description": "锅中加水至 1/4 高度，水烧开后，将盘子放入锅中，盖上锅盖，蒸 15 分钟。"
+      }
+    ]
+  },
+  {
+    "id": "meat_dish/腐乳肉",
+    "name": "腐乳肉的做法",
+    "description": "腐乳肉精选五花肉与红腐乳缠绵共舞。腐乳特有的酒香豆香渗入肉纹，经慢火煨炖化作琥珀色的温柔。入口即化的肉质裹着微甜咸鲜的酱汁，堪称舌尖上的风月宝鉴～",
+    "source_path": "meat_dish/腐乳肉.md",
+    "category": "荤菜",
+    "difficulty": 5,
+    "servings": 2,
+    "tags": [
+      "荤菜",
+      "腐乳肉",
+      "复杂"
+    ],
+    "ingredients": [
+      {
+        "name": "带皮五花肉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 带皮五花肉",
+        "notes": null
+      },
+      {
+        "name": "红腐乳",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 红腐乳（推荐咸亨牌玫瑰腐乳）",
+        "notes": null
+      },
+      {
+        "name": "冰糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 冰糖",
+        "notes": null
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 老抽",
+        "notes": null
+      },
+      {
+        "name": "料酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 料酒",
+        "notes": null
+      },
+      {
+        "name": "香葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香葱（可选）",
+        "notes": null
+      },
+      {
+        "name": "生姜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生姜",
+        "notes": null
+      },
+      {
+        "name": "清水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 清水",
+        "notes": null
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油",
+        "notes": null
+      },
+      {
+        "name": "腐乳汁",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 腐乳汁 15 ml",
+        "notes": null
+      },
+      {
+        "name": "葱白",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱白 15 g",
+        "notes": null
+      },
+      {
+        "name": "葱花",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱花 5 g",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "五花肉切成长宽 2.5 cm 的小块"
+      },
+      {
+        "step": 2,
+        "description": "冷水放料酒姜片，五花肉放入开火慢慢加入到水沸腾后捞出"
+      },
+      {
+        "step": 3,
+        "description": "玫瑰腐乳块和腐乳汁碾成泥，加冰糖、老抽调成酱汁"
+      },
+      {
+        "step": 4,
+        "description": "热锅冷油爆香葱姜，下肉块煸到金黄"
+      },
+      {
+        "step": 5,
+        "description": "倒入腐乳酱炒匀加热水焖煮"
+      },
+      {
+        "step": 6,
+        "description": "小火慢炖 40 分钟"
+      },
+      {
+        "step": 7,
+        "description": "大火收汁，看到汤汁冒浓稠鱼眼泡时关火"
       }
     ]
   },
