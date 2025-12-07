@@ -2,20 +2,18 @@
 
 Automated tracking of recipe additions, removals, and modifications.
 
-## 🔄 Recipe Update - 2025-11-24 11:34:52
+## 🔄 Recipe Update - 2025-12-07 09:04:10
 
-**📝 3 New Recipes Added**
-- Total recipes: 339
+**📝 2 New Recipes Added**
+- Total recipes: 341
 
 **Category Changes**:
-- 主食: 51 → 52 (+1)
-- 汤羹: 21 → 22 (+1)
-- 荤菜: 99 → 100 (+1)
+- 主食: 52 → 53 (+1)
+- 水产: 26 → 27 (+1)
 
 **Added Recipes**:
-- 猪油拌饭的做法
-- 腐乳肉的做法
-- 黄瓜皮蛋汤的做法
+- 咸肉菜饭的做法
+- 响油鳝丝的做法
 ## [Unreleased] - 2025-01-18
 
 ### Status
