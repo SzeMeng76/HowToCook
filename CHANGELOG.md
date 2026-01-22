@@ -2,18 +2,16 @@
 
 Automated tracking of recipe additions, removals, and modifications.
 
-## 🔄 Recipe Update - 2025-12-07 09:04:10
+## 🔄 Recipe Update - 2026-01-22 14:27:14
 
-**📝 2 New Recipes Added**
-- Total recipes: 341
+**📝 1 New Recipes Added**
+- Total recipes: 342
 
 **Category Changes**:
-- 主食: 52 → 53 (+1)
-- 水产: 26 → 27 (+1)
+- 荤菜: 100 → 101 (+1)
 
 **Added Recipes**:
-- 咸肉菜饭的做法
-- 响油鳝丝的做法
+- 红烧鸡翅的做法
 ## [Unreleased] - 2025-01-18
 
 ### Status
