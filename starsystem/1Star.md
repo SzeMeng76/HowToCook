@@ -1,9 +1,8 @@
 # 1 星难度菜品
 
-* [鸡蛋花](./../dishes/vegetable_dish/鸡蛋花/鸡蛋花.md)
-* [皮蛋豆腐](./../dishes/vegetable_dish/皮蛋豆腐.md)
 * [吐司果酱](./../dishes/breakfast/吐司果酱.md)
 * [微波炉荷包蛋](./../dishes/breakfast/微波炉荷包蛋.md)
+* [微波炉蒸蛋](./../dishes/breakfast/微波炉蒸蛋.md)
 * [微波炉蛋糕](./../dishes/breakfast/微波炉蛋糕.md)
 * [牛奶燕麦](./../dishes/breakfast/牛奶燕麦.md)
 * [空气炸锅面包片](./../dishes/breakfast/空气炸锅面包片.md)
@@ -21,6 +20,7 @@
 * [朱雀汤](./../dishes/soup/朱雀汤/朱雀汤.md)
 * [意式肉酱面](./../dishes/staple/意式肉酱面/意式肉酱面.md)
 * [煮泡面加蛋](./../dishes/staple/煮泡面加蛋.md)
+* [猪油拌饭](./../dishes/staple/猪油拌饭.md)
 * [电饭煲蒸米饭](./../dishes/staple/米饭/电饭煲蒸米饭.md)
 * [老干妈拌面](./../dishes/staple/老干妈拌面.md)
 * [螺蛳粉](./../dishes/staple/螺蛳粉.md)
@@ -29,3 +29,5 @@
 * [凉拌黄瓜](./../dishes/vegetable_dish/凉拌黄瓜.md)
 * [清蒸南瓜](./../dishes/vegetable_dish/清蒸南瓜.md)
 * [炒滑蛋](./../dishes/vegetable_dish/炒滑蛋/炒滑蛋.md)
+* [皮蛋豆腐](./../dishes/vegetable_dish/皮蛋豆腐.md)
+* [鸡蛋花](./../dishes/vegetable_dish/鸡蛋花/鸡蛋花.md)
