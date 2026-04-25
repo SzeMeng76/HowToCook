@@ -15921,6 +15921,128 @@
     ]
   },
   {
+    "id": "soup/排骨山药玉米汤/排骨山药玉米汤",
+    "name": "排骨山药玉米汤的做法",
+    "description": "排骨山药玉米汤是一道兼具清甜与滋补的经典家常汤品。山药软糯、玉米清甜，搭配排骨的醇厚，具有健脾益胃、增强免疫力的功效。",
+    "source_path": "soup/排骨山药玉米汤/排骨山药玉米汤.md",
+    "category": "汤羹",
+    "difficulty": 2,
+    "servings": 2,
+    "tags": [
+      "汤羹",
+      "排骨山药玉米汤",
+      "简单"
+    ],
+    "ingredients": [
+      {
+        "name": "排骨",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 排骨（推荐精排）",
+        "notes": null
+      },
+      {
+        "name": "山药",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 山药（推荐铁棍山药）",
+        "notes": null
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 胡萝卜",
+        "notes": null
+      },
+      {
+        "name": "玉米",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 玉米（推荐甜玉米或糯玉米）",
+        "notes": null
+      },
+      {
+        "name": "生姜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生姜",
+        "notes": null
+      },
+      {
+        "name": "小葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 小葱",
+        "notes": null
+      },
+      {
+        "name": "料酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 料酒",
+        "notes": null
+      },
+      {
+        "name": "食盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食盐",
+        "notes": null
+      },
+      {
+        "name": "生姜（大约",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生姜（大约 20g，切片备用）",
+        "notes": null
+      },
+      {
+        "name": "小葱（大约",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 小葱（大约 15g，打结或切末备用）",
+        "notes": null
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油 10ml",
+        "notes": null
+      },
+      {
+        "name": "饮用水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 饮用水 1500ml - 2000ml",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "**食材预处理**：\n  将胡萝卜洗净去皮，切成大约 3cm 的滚刀块。\n  玉米洗净，剁成大约 4cm 的圆柱状小块。\n  山药去皮（建议佩戴手套，防止粘液导致皮肤过敏），切成大约 4cm 的长段，备用。"
+      },
+      {
+        "step": 2,
+        "description": "**排骨焯水**：\n  锅中加入足量冷水，放入洗净的排骨。\n  加入大约 10g 姜片、葱结和 15ml 料酒。\n  大火煮沸，沸腾后**等待 3 分钟**，期间用勺子撇去表面浮沫。\n  捞出排骨，用大约 40℃ 的温水洗净杂质，沥干备用。"
+      },
+      {
+        "step": 3,
+        "description": "**翻炒排骨**：\n  热锅，倒入 10ml 食用油，等待 10 秒让油温升高。\n  放入剩余大约 10g 姜片爆香。\n  放入全部准备好的排骨，保持中火翻炒大约 1 分钟，至排骨表面微焦。"
+      },
+      {
+        "step": 4,
+        "description": "**炖煮过程**：\n  在锅中一次性加入 1500ml - 2000ml 饮用水。\n  放入全部准备好的胡萝卜、玉米和山药。\n  大火烧开后转小火，盖上锅盖，**慢炖 40 分钟**。"
+      },
+      {
+        "step": 5,
+        "description": "**调味与出锅**：\n  加入 6g - 8g 食盐，用勺子搅拌均匀。\n  保持小火继续**炖煮 2 分钟**使盐分入味。\n  关火，根据个人喜好撒入小葱末，盛盘。"
+      }
+    ]
+  },
+  {
     "id": "soup/排骨苦瓜汤/排骨苦瓜汤",
     "name": "排骨苦瓜汤的做法",
     "description": "排骨苦瓜汤是一道味道鲜美且容易烹饪的汤。不过汤的烹饪时间都较长，一般来说最好提前 4 个小时开始进行准备。",

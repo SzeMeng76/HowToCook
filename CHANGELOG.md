@@ -2,12 +2,16 @@
 
 Automated tracking of recipe additions, removals, and modifications.
 
-## ✅ Recipe Check - 2026-03-21 05:36:51
+## 🔄 Recipe Update - 2026-04-25 01:45:31
 
-**Status**: No changes detected
-- Total recipes: 356 (verified)
-- All recipe content and structure validated
-- JSON data generation completed successfully
+**📝 1 New Recipes Added**
+- Total recipes: 357
+
+**Category Changes**:
+- 汤羹: 22 → 23 (+1)
+
+**Added Recipes**:
+- 排骨山药玉米汤的做法
 ## [Unreleased] - 2025-01-18
 
 ### Status
