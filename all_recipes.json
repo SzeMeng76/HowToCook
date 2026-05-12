@@ -3536,6 +3536,149 @@
     ]
   },
   {
+    "id": "staple/炒方便面/炒方便面",
+    "name": "炒方便面的做法",
+    "description": "![炒方便面](./炒方便面.png)",
+    "source_path": "staple/炒方便面/炒方便面.md",
+    "category": "主食",
+    "difficulty": 2,
+    "servings": 1,
+    "tags": [
+      "主食",
+      "炒方便面",
+      "简单"
+    ],
+    "ingredients": [
+      {
+        "name": "方便面",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 方便面",
+        "notes": null
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鸡蛋",
+        "notes": null
+      },
+      {
+        "name": "火腿肠",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 火腿肠（可选）",
+        "notes": null
+      },
+      {
+        "name": "方便面用量为",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 方便面用量为 1 包/人。",
+        "notes": null
+      },
+      {
+        "name": "鸡蛋的用量为",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鸡蛋的用量为 1 个/人。",
+        "notes": null
+      },
+      {
+        "name": "火腿肠的用量为",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 火腿肠的用量为 1 个/人。",
+        "notes": null
+      },
+      {
+        "name": "食用油的用量为",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 食用油的用量为 10 - 18 ml / 人。",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将火腿肠撕开包装，切成宽度 1cm 的小块。"
+      },
+      {
+        "step": 2,
+        "description": "向煮锅中加入 1200 ml 水，实际以没过面饼为准。完全煮沸，不要在未沸腾时加面。"
+      },
+      {
+        "step": 3,
+        "description": "加入方便面面饼，煮 45 秒。煮的过程中将其挑动，把面条打散。"
+      },
+      {
+        "step": 4,
+        "description": "面条打散后立刻关火。不要煮熟！"
+      },
+      {
+        "step": 5,
+        "description": "从锅中舀出 80ml 热面汤备用。"
+      },
+      {
+        "step": 6,
+        "description": "将面汤和面分离。用凉水冲一下面条。"
+      },
+      {
+        "step": 7,
+        "description": "沥干面条上的水分。不要长时间将面泡在水中。"
+      },
+      {
+        "step": 8,
+        "description": "准备一个小碗，将方便面的调料包挤进去。\n  挤进去所有菜包\n  挤进去所有酱包\n  挤进去 50% - 80% 的粉包。（全部粉包都挤进去会很咸）"
+      },
+      {
+        "step": 9,
+        "description": "将上一步的 80ml 热面汤全部倒入小碗，搅匀，得到调料碗。"
+      },
+      {
+        "step": 10,
+        "description": "取出计算好的数量的鸡蛋，打入一个小碗。不要加盐！（鸡蛋最终会混合锅里食材的盐味）"
+      },
+      {
+        "step": 11,
+        "description": "热锅 20s，加入份数 * 8ml 油。"
+      },
+      {
+        "step": 12,
+        "description": "加入刚刚准备好的一碗鸡蛋。翻炒大约 20s 至鸡蛋形成固态即可。"
+      },
+      {
+        "step": 13,
+        "description": "将煎鸡蛋取出暂存。不需要洗锅。但一般国内不会残余太多油。"
+      },
+      {
+        "step": 14,
+        "description": "重新热锅 20s，向锅内加入油：份数 * 10ml。"
+      },
+      {
+        "step": 15,
+        "description": "加入第一步处理的火腿肠。翻炒 10 秒。"
+      },
+      {
+        "step": 16,
+        "description": "加入第二步的面。翻炒 30 秒。"
+      },
+      {
+        "step": 17,
+        "description": "加入第三步的调料碗。翻炒 30 秒。"
+      },
+      {
+        "step": 18,
+        "description": "加入第四步的煎鸡蛋。翻炒 30 秒。"
+      },
+      {
+        "step": 19,
+        "description": "关火盛盘即可。"
+      }
+    ]
+  },
+  {
     "id": "staple/炒河粉",
     "name": "炒河粉的做法",
     "description": "预估烹饪难度：★★★★",
@@ -4298,7 +4441,7 @@
       },
       {
         "step": 9,
-        "description": "热锅放油 15 ml 放入大蒜爆香"
+        "description": "热锅放油 15 ml 放入拍碎的大蒜爆香"
       },
       {
         "step": 10,
@@ -10585,7 +10728,7 @@
   {
     "id": "breakfast/苏格兰蛋/苏格兰蛋",
     "name": "苏格兰蛋的做法",
-    "description": "<!-- 标题必须是 `菜名` + `的做法`。和文件名一致。 -->",
+    "description": "![简易版苏格兰蛋](./egg1.png)",
     "source_path": "breakfast/苏格兰蛋/苏格兰蛋.md",
     "category": "早餐",
     "difficulty": 3,
@@ -15096,6 +15239,168 @@
     ]
   },
   {
+    "id": "aquatic/阳朔啤酒鱼/阳朔啤酒鱼",
+    "name": "阳朔啤酒鱼的做法",
+    "description": "![阳朔啤酒鱼成品](./阳朔啤酒鱼.png)\n![阳朔啤酒鱼参考图](./阳朔啤酒鱼参考.jpg)",
+    "source_path": "aquatic/阳朔啤酒鱼/阳朔啤酒鱼.md",
+    "category": "水产",
+    "difficulty": 3,
+    "servings": 2,
+    "tags": [
+      "水产",
+      "阳朔啤酒鱼"
+    ],
+    "ingredients": [
+      {
+        "name": "剑骨鱼或鲤鱼",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 剑骨鱼或鲤鱼（约 1.5 斤，让店家处理内脏，但**不要刮鱼鳞**）",
+        "notes": null
+      },
+      {
+        "name": "漓泉啤酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 漓泉啤酒（一瓶，约 330ml，桂林本地啤酒，最正宗）",
+        "notes": null
+      },
+      {
+        "name": "番茄",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 番茄（2 个）",
+        "notes": null
+      },
+      {
+        "name": "青椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青椒（2 个）",
+        "notes": null
+      },
+      {
+        "name": "红椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 红椒（1 个）",
+        "notes": null
+      },
+      {
+        "name": "大蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 大蒜（5-6 瓣）",
+        "notes": null
+      },
+      {
+        "name": "生姜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生姜（1 块）",
+        "notes": null
+      },
+      {
+        "name": "葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱（2 根）",
+        "notes": null
+      },
+      {
+        "name": "桂林辣椒酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 桂林辣椒酱",
+        "notes": null
+      },
+      {
+        "name": "料酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 料酒",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": null
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 老抽",
+        "notes": null
+      },
+      {
+        "name": "白糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白糖",
+        "notes": null
+      },
+      {
+        "name": "食盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食盐",
+        "notes": null
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "鱼处理好内脏，保留鱼鳞，清洗干净，从腹部剖开成两半（背部相连），用 15ml 料酒、姜片、食盐 3g 腌制 15 分钟"
+      },
+      {
+        "step": 2,
+        "description": "番茄切块，青椒红椒切块，大蒜拍碎，生姜切片，葱切段（葱白葱叶分开）"
+      },
+      {
+        "step": 3,
+        "description": "用姜片擦拭锅底，热锅后倒入 30ml 食用油，油热后放入鱼（鱼皮朝下），煎至两面金黄、鱼鳞酥脆，盛出备用"
+      },
+      {
+        "step": 4,
+        "description": "锅中留底油，放入葱白、姜片、蒜瓣爆香"
+      },
+      {
+        "step": 5,
+        "description": "加入 15g 桂林辣椒酱，炒出红油"
+      },
+      {
+        "step": 6,
+        "description": "放入番茄块，翻炒至番茄出汁变软"
+      },
+      {
+        "step": 7,
+        "description": "倒入整瓶啤酒，加入 15ml 生抽、5ml 老抽、5g 白糖、5g 食盐，搅拌均匀"
+      },
+      {
+        "step": 8,
+        "description": "放入煎好的鱼，大火烧开后转中小火，盖上锅盖焖煮 15-20 分钟"
+      },
+      {
+        "step": 9,
+        "description": "开盖，放入青椒红椒块，继续煮 3-5 分钟"
+      },
+      {
+        "step": 10,
+        "description": "大火收汁至汤汁浓稠，撒上葱叶段，出锅装盘"
+      }
+    ]
+  },
+  {
     "id": "aquatic/香煎翘嘴鱼/香煎翘嘴鱼",
     "name": "香煎翘嘴鱼的做法",
     "description": "![香煎翘嘴鱼](./香煎翘嘴鱼.jpeg)",
@@ -18696,62 +19001,6 @@
         "unit": null,
         "text_quantity": "* 刮刀（用于翻拌蛋糕糊）",
         "notes": null
-      },
-      {
-        "name": "1 个鸡蛋（正常中等大小，约",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 1 个鸡蛋（正常中等大小，约 50g）",
-        "notes": null
-      },
-      {
-        "name": "白糖",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 白糖 16g",
-        "notes": null
-      },
-      {
-        "name": "食用油",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 食用油 8g",
-        "notes": null
-      },
-      {
-        "name": "牛奶",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 牛奶 10g",
-        "notes": null
-      },
-      {
-        "name": "低筋面粉",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- 低筋面粉 17g",
-        "notes": null
-      },
-      {
-        "name": "6 寸",
-        "quantity": 3.0,
-        "unit": "份",
-        "text_quantity": "* 6 寸：大小为 3 份（即三个鸡蛋）。面积 36 个单位。",
-        "notes": null
-      },
-      {
-        "name": "鸡蛋",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "* 鸡蛋 3 个，白糖 50g，食用油 25g，牛奶 30g，低筋面粉 50g",
-        "notes": null
-      },
-      {
-        "name": "8 寸",
-        "quantity": 5.0,
-        "unit": "份",
-        "text_quantity": "* 8 寸：大小为 5 份（即五个鸡蛋）。面积 64 个单位。",
-        "notes": null
       }
     ],
     "steps": [
@@ -18781,23 +19030,23 @@
       },
       {
         "step": 7,
-        "description": "准备一个新的空碗，加入全部食用油，然后放入低筋面粉搅拌\n  油会直接阻断面筋的形成"
+        "description": "准备一个新的空碗，加入配方中**全部的食用油**和**全部的牛奶**"
       },
       {
         "step": 8,
-        "description": "将蛋黄加入碗中，再加入牛奶以及 **1/4** 的白糖，用刮刀搅拌均匀\n  此时加入的牛奶虽然含水，但是不应形成面筋了。"
+        "description": "用打蛋器手动快速搅拌，直到油水完全融合，呈现乳白色悬浊液状态（完成乳化）"
       },
       {
         "step": 9,
-        "description": "准备好低筋面粉，一边慢慢撒入容器一边用刮刀“Z 字形搅拌”（之字形搅拌），即刮刀只能沿着刀刃的方向两侧或前后移动。**不可无序地逆时针或顺时针搅拌**"
+        "description": "将配方中**全部的低筋面粉**过筛，加入上述乳化液中。用刮刀以”Z 字形”划拌至没有明显干粉即可（此时面糊可能会有些粗糙，属于正常现象）"
       },
       {
         "step": 10,
-        "description": "继续，加入全部面粉，仍使用上述搅拌方式，直到混合均匀、无干粉状态。（出现一些团块是正常现象，可继续搅拌使其分散）"
+        "description": "将分离好的**全部蛋黄**加入碗中，继续用刮刀”Z 字形”划拌"
       },
       {
         "step": 11,
-        "description": "静置，备用"
+        "description": "此时面糊会变得非常细腻顺滑，且不易产生面筋。将其静置备用"
       },
       {
         "step": 12,
@@ -18817,11 +19066,11 @@
       },
       {
         "step": 16,
-        "description": "打蛋器高速，打发蛋白至*“湿性发泡”*的状态（此时提起打蛋器头，有长长的弯曲尖角），加入**第三份白糖**"
+        "description": "打蛋器高速，打发蛋白至”湿性发泡”的状态，加入**第三份白糖**"
       },
       {
         "step": 17,
-        "description": "打蛋器中低速，打发蛋白至“干性发泡”的状态（提起打蛋器头，有短小直立的尖角；倒扣容器，蛋白可粘住容器不掉下来）"
+        "description": "打蛋器中低速，打发蛋白至”干性发泡”的状态"
       },
       {
         "step": 18,
@@ -18869,14 +19118,38 @@
       },
       {
         "step": 29,
-        "description": "（可选） 将模具从高处落下，震出其中的热气"
+        "description": "预热：空气炸锅设置 **130°C** 预热 **5 分钟**"
       },
       {
         "step": 30,
-        "description": "模具倒扣 10 分钟，使蛋糕冷却\n  没有冷却的蛋糕立刻脱模会损伤蛋糕\n  此操作可能会**烫手**，注意用毛巾辅助"
+        "description": "入锅与遮盖：将装有蛋糕糊的模具放入炸锅。**立刻在模具上方盖上一层锡纸**（亮面朝上，哑光面接触食物），锡纸边缘捏紧，防止被热风吹开"
       },
       {
         "step": 31,
+        "description": "第一阶段烘烤：设置 **130°C**，烘烤 **35 分钟**"
+      },
+      {
+        "step": 32,
+        "description": "第二阶段上色：打开炸锅，**撤掉锡纸**。将温度调高至 **150°C**，继续烘烤 **10–15 分钟**"
+      },
+      {
+        "step": 33,
+        "description": "判断熟透：蛋糕顶部膨胀且上色呈金黄色即可出锅。用牙签扎入中心，拔出后没有湿润面糊带出即代表已烤熟"
+      },
+      {
+        "step": 34,
+        "description": "出锅后的震热气与倒扣脱模操作，与烤箱版完全一致"
+      },
+      {
+        "step": 35,
+        "description": "（可选） 将模具从高处落下，震出其中的热气"
+      },
+      {
+        "step": 36,
+        "description": "模具倒扣 10 分钟，使蛋糕冷却\n  没有冷却的蛋糕立刻脱模会损伤蛋糕\n  此操作可能会**烫手**，注意用毛巾辅助"
+      },
+      {
+        "step": 37,
         "description": "脱模，食用"
       }
     ]
@@ -22137,6 +22410,177 @@
     ]
   },
   {
+    "id": "vegetable_dish/地三鲜/地三鲜",
+    "name": "地三鲜的做法",
+    "description": "![地三鲜成品](./地三鲜.jpg)",
+    "source_path": "vegetable_dish/地三鲜/地三鲜.md",
+    "category": "素菜",
+    "difficulty": 3,
+    "servings": 2,
+    "tags": [
+      "素菜",
+      "地三鲜"
+    ],
+    "ingredients": [
+      {
+        "name": "茄子",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 茄子",
+        "notes": null
+      },
+      {
+        "name": "土豆",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 土豆",
+        "notes": null
+      },
+      {
+        "name": "尖椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 尖椒",
+        "notes": null
+      },
+      {
+        "name": "葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱",
+        "notes": null
+      },
+      {
+        "name": "姜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 姜",
+        "notes": null
+      },
+      {
+        "name": "蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蒜",
+        "notes": null
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 豆瓣酱",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": null
+      },
+      {
+        "name": "糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 糖",
+        "notes": null
+      },
+      {
+        "name": "淀粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 淀粉",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "土豆、茄子、尖椒洗净。"
+      },
+      {
+        "step": 2,
+        "description": "土豆去皮。"
+      },
+      {
+        "step": 3,
+        "description": "茄子、土豆均切成 15g 的不规则的小块。"
+      },
+      {
+        "step": 4,
+        "description": "尖椒用手顺着纹路撕即可，撕成比土豆、茄子略大 25%的块。"
+      },
+      {
+        "step": 5,
+        "description": "尽可能除去青椒表面的水分，避免后续炸的时候炸水。考虑使用厨房纸或风干半小时。"
+      },
+      {
+        "step": 6,
+        "description": "葱切 0.5cm 小段，共取 5g。蒜剁碎成蒜蓉取 15g，分成两份，各 7.5g。姜切沫取 5g。"
+      },
+      {
+        "step": 7,
+        "description": "拿一个空碗，放入生抽 10ml、糖 10g、淀粉 8g，加入 80ml 清水，彻底搅拌均匀，作为调料碗，备用。"
+      },
+      {
+        "step": 8,
+        "description": "热锅，加入 150ml 油。"
+      },
+      {
+        "step": 9,
+        "description": "加入土豆，煎炸大约 3-4 分钟，以显示金黄色、筷子能轻松扎透为准。"
+      },
+      {
+        "step": 10,
+        "description": "捞出土豆，留下油。"
+      },
+      {
+        "step": 11,
+        "description": "加入茄子，煎炸大约 2-3 分钟，待其到大约 7 分熟，以茄子变软、边缘微焦且吐出多余油脂为准。"
+      },
+      {
+        "step": 12,
+        "description": "捞出茄子，留下油。（也可能没有残余的油了）"
+      },
+      {
+        "step": 13,
+        "description": "如果锅内已经没有流动的油，可以考虑补充 15ml 油。"
+      },
+      {
+        "step": 14,
+        "description": "加入尖椒块，煎炸大约 15 秒，边缘稍微起虎皮后，立刻捞出。倒出锅里的油。"
+      },
+      {
+        "step": 15,
+        "description": "重新热锅，重新加入 15ml 新底油。"
+      },
+      {
+        "step": 16,
+        "description": "放入葱 5g，姜 5g，蒜 7.5g。中小火爆香。"
+      },
+      {
+        "step": 17,
+        "description": "放入豆瓣酱 15ml。转小火，炒出红油和酱香味。"
+      },
+      {
+        "step": 18,
+        "description": "倒入调料碗。立刻转大火，高速搅拌避免糊锅！大约 10 秒后汤汁就会开始冒泡并变得黏稠。"
+      },
+      {
+        "step": 19,
+        "description": "立刻放入之前准备好的全部土豆、茄子和尖椒。"
+      },
+      {
+        "step": 20,
+        "description": "翻炒 20 秒，让浓稠的酱汁均匀挂在食材上。"
+      },
+      {
+        "step": 21,
+        "description": "关火，撒入 7.5g 蒜。翻拌均匀，盛盘。"
+      }
+    ]
+  },
+  {
     "id": "vegetable_dish/家常日本豆腐",
     "name": "家常日本豆腐的做法",
     "description": "家常日本豆腐用金黄脆壳裹住日本豆腐的娇嫩，三分钟快炒成就餐桌之光，脆嫩咸香暴击味蕾。",
@@ -23970,7 +24414,7 @@
   {
     "id": "vegetable_dish/白灼菜心/白灼菜心",
     "name": "白灼菜心的做法",
-    "description": "<!-- 标题必须是 `菜名` + `的做法`。和文件名一致。 -->",
+    "description": "![白灼菜心](./白灼菜心.jpg)",
     "source_path": "vegetable_dish/白灼菜心/白灼菜心.md",
     "category": "素菜",
     "difficulty": 2,
@@ -27451,7 +27895,7 @@
   {
     "id": "meat_dish/乡村啤酒鸭",
     "name": "乡村啤酒鸭的做法",
-    "description": "![乡村啤酒鸭](https://jphuang-image.oss-cn-beijing.aliyuncs.com/beer/duck/%E6%88%90%E5%93%812.jpg)",
+    "description": "将鸭肉与啤酒一同炖煮成菜，使滋补的鸭肉味道更加浓厚，鸭肉不仅入口鲜香，还带有一股啤酒清香。一般初学者只需要 1 小时即可完成。",
     "source_path": "meat_dish/乡村啤酒鸭.md",
     "category": "荤菜",
     "difficulty": 4,
@@ -28347,9 +28791,9 @@
       },
       {
         "name": "猪五花肉",
-        "quantity": 2.0,
-        "unit": "斤",
-        "text_quantity": "- 猪五花肉：约 2 斤",
+        "quantity": 1000.0,
+        "unit": "g",
+        "text_quantity": "- 猪五花肉：1000g（约 2 斤）。*注：生肉烹饪后缩水脱脂严重，此分量最终出肉量约满足 2-3 人正常饭量。如仅 1 人食用，建议所有食材剂量减半。*",
         "notes": null
       },
       {
@@ -28367,10 +28811,24 @@
         "notes": null
       },
       {
+        "name": "小葱",
+        "quantity": 30.0,
+        "unit": "g",
+        "text_quantity": "- 小葱：约 30g（3-4 根），葱白切段备用",
+        "notes": null
+      },
+      {
+        "name": "大蒜",
+        "quantity": 25.0,
+        "unit": "g",
+        "text_quantity": "- 大蒜：约 25g（5-6 瓣），中间切开备用",
+        "notes": null
+      },
+      {
         "name": "冰糖",
-        "quantity": 15.0,
-        "unit": "块",
-        "text_quantity": "- 冰糖：约 15 块",
+        "quantity": 50.0,
+        "unit": "g",
+        "text_quantity": "- 冰糖：50g（约大拇指甲盖大小的碎单晶冰糖 15 块）。如果上一步炒糖色已经使用了 50g，此处的 50g 为炖煮时二次调味使用，可根据对\"南派甜口\"的接受度调整至 30g。",
         "notes": null
       },
       {
@@ -28389,9 +28847,9 @@
       },
       {
         "name": "料酒",
-        "quantity": 20.0,
+        "quantity": 30.0,
         "unit": "ml",
-        "text_quantity": "- 料酒：20ml",
+        "text_quantity": "- 料酒：总量 30ml（其中 20ml 用于前期焯水去腥，10ml 用于后期炖煮提鲜）",
         "notes": null
       },
       {
@@ -28440,7 +28898,7 @@
     "steps": [
       {
         "step": 1,
-        "description": "`猪五花肉`切大块（约 4.5cm ）"
+        "description": "`猪五花肉`先不切小块，切成能放入锅中的大块（约 5–6cm 宽）即可"
       },
       {
         "step": 2,
@@ -28464,34 +28922,38 @@
       },
       {
         "step": 7,
-        "description": "建议先拿出来一半葱姜，再将剩下的`生姜、葱白、蒜、花椒、八角、香叶`提前放入一个碗中备用"
+        "description": "请将辅料分为两个\"预备包\"：\n  **A包（去腥用）**：2 片姜、2 段葱段。\n  **B包（炖煮用）**：剩下的 4 片姜、葱白、蒜瓣、花椒、八角、香叶，统一放入一个小碗中备用。"
       },
       {
         "step": 8,
-        "description": "凉水锅中放入切好的五花肉，加入料酒与 2/5 葱姜，煮 15 分钟去掉血腥，捞出来后洗干净；"
+        "description": "凉水锅中放入五花肉大块，加入 **20ml 料酒** 与 **A包**（2 片姜、2 段葱段），煮 15 分钟去掉血腥，捞出来后洗干净；"
       },
       {
         "step": 9,
-        "description": "炒[糖色](./../../condiment/简易版炒糖色.md)，注意采用其中提到的操作 2 来制作糖色。"
+        "description": "将焯过水的五花肉捞出，稍微放凉（不烫手即可），切成边长约 **3cm × 3cm × 3cm** 的正方体块（焯水后肉质收紧，此时切块比生肉时更容易且成品大小更均匀。3cm 切块最终成品约为 2.5cm，是最适宜入口且容易烧透的尺寸）"
       },
       {
         "step": 10,
-        "description": "将准备好的`生姜、葱白、蒜、花椒、八角、香叶`还有`五花肉`倒入锅中`大火`翻炒，期间加入至闻到香味，倒入开水至没过全部肉炖煮 50 分钟-60 分钟\n  高压锅的话 40 分钟；"
+        "description": "另起锅炒[糖色](./../../condiment/简易版炒糖色.md)，注意：**在此菜谱中，请采用其中提到的\"操作 2\"来制作**，即在糖液起密集小泡时，迅速将 **B包**（生姜、葱白、蒜、花椒、八角、香叶）倒入锅中爆香。"
       },
       {
         "step": 11,
-        "description": "加入 10ml 料酒；"
+        "description": "爆出香味后（约 5-10 秒内），**先不要加开水**，而是立刻将焯过水的`五花肉`倒入锅中`大火`翻炒，让肉块均匀裹上糖色并煸炒出油脂。待闻到肉香后，再倒入开水至没过全部肉，盖上锅盖，转中小火炖煮 50 分钟-60 分钟（高压锅则为 40 分钟）；"
       },
       {
         "step": 12,
-        "description": "盖上锅盖煮至沸腾后，每隔 25 分钟打开盖子将浮在表面的油和沫捞出；"
+        "description": "加入 **10ml 料酒**；"
       },
       {
         "step": 13,
-        "description": "当水的高度减至肉最高的高度与锅底高度的 3/5 时，转中火，并捞出除肉和水以外的所有辅料，开始收汁；"
+        "description": "盖上锅盖煮至沸腾后，每隔 25 分钟打开盖子将浮在表面的油和沫捞出；"
       },
       {
         "step": 14,
+        "description": "当水的高度减至肉最高的高度与锅底高度的 3/5 时，转中火，并捞出除肉和水以外的所有辅料，开始收汁；"
+      },
+      {
+        "step": 15,
         "description": "打开锅盖，待汤汁快没有的时粘稠状出锅（切记不可收干）；"
       }
     ]
@@ -34352,6 +34814,110 @@
     ]
   },
   {
+    "id": "meat_dish/桂林十八酿/桂林十八酿",
+    "name": "桂林十八酿的做法",
+    "description": "![架构总览](./arch.png)",
+    "source_path": "meat_dish/桂林十八酿/桂林十八酿.md",
+    "category": "荤菜",
+    "difficulty": 3,
+    "servings": 2,
+    "tags": [
+      "荤菜",
+      "桂林十八酿"
+    ],
+    "ingredients": [
+      {
+        "name": "*容器—— 管状物即可",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "**容器(Wrapper)—— 管状物即可：**",
+        "notes": null
+      },
+      {
+        "name": "青椒、苦瓜、茄子、田螺、豆腐、香菇、南瓜花",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青椒、苦瓜、茄子、田螺、豆腐、香菇、南瓜花",
+        "notes": null
+      },
+      {
+        "name": "柚子、笋、冬瓜、香芋、蒜、番茄、豆芽、蛋、香菌",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 柚子、笋、冬瓜、香芋、蒜、番茄、豆芽、蛋、香菌",
+        "notes": null
+      },
+      {
+        "name": "原则",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 原则：万物皆可酿",
+        "notes": null
+      },
+      {
+        "name": "*馅料—— 肉馅为主",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "**馅料(Filling)—— 肉馅为主：**",
+        "notes": null
+      },
+      {
+        "name": "猪肉馅",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 猪肉馅（基础款，肥瘦比例 3:7）",
+        "notes": null
+      },
+      {
+        "name": "虾滑馅",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 虾滑馅（fork 版本）",
+        "notes": null
+      },
+      {
+        "name": "鱼肉馅",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鱼肉馅",
+        "notes": null
+      },
+      {
+        "name": "混合馅",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 混合馅（猪肉 + 虾滑，猪肉 + 螺肉等自由组合）",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "**青椒酿**：青椒去籽挖空 → 塞入猪肉馅或虾滑 → 煎至虎皮色 → 酱汁焖煮"
+      },
+      {
+        "step": 2,
+        "description": "**田螺酿**：田螺焯水取肉 → 螺肉与猪肉剁碎混合 → 塞回螺壳 → 紫苏薄荷焖煮"
+      },
+      {
+        "step": 3,
+        "description": "**猪肉馅**：最基础通用的选择，肥瘦 3:7 口感最佳"
+      },
+      {
+        "step": 4,
+        "description": "**虾滑馅**：鲜甜弹牙，青椒酿里常用"
+      },
+      {
+        "step": 5,
+        "description": "**螺肉猪肉混合馅**：田螺酿的灵魂，螺肉与猪肉 1:1，加紫苏薄荷"
+      },
+      {
+        "step": 6,
+        "description": "**混合馅**：猪肉 + 虾滑混搭，鲜甜与油脂香兼得"
+      }
+    ]
+  },
+  {
     "id": "meat_dish/梅菜扣肉/梅菜扣肉",
     "name": "梅菜扣肉的做法",
     "description": "梅菜扣肉造型别致、大方得体，颜色酱红油亮，汤汁黏稠鲜美，扣肉肥而不腻，食之软烂醇香。",
@@ -36479,6 +37045,228 @@
       {
         "step": 9,
         "description": "取出即可食用"
+      }
+    ]
+  },
+  {
+    "id": "meat_dish/田螺酿/田螺酿",
+    "name": "田螺酿的做法",
+    "description": "![田螺酿成品](./成品.jpeg)\n![田螺酿成品2](./成品2.png)",
+    "source_path": "meat_dish/田螺酿/田螺酿.md",
+    "category": "荤菜",
+    "difficulty": 4,
+    "servings": 2,
+    "tags": [
+      "荤菜",
+      "田螺酿",
+      "复杂"
+    ],
+    "ingredients": [
+      {
+        "name": "大田螺",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 大田螺（乒乓球大小，约 20-25 个，上午买回放一下午吐沙）",
+        "notes": null
+      },
+      {
+        "name": "猪肉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 猪肉（250g，肥瘦比例 3:7 的前夹肉最佳）",
+        "notes": null
+      },
+      {
+        "name": "新鲜薄荷叶",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 新鲜薄荷叶（一小把，点睛之笔）",
+        "notes": null
+      },
+      {
+        "name": "紫苏叶",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 紫苏叶（一小把，与田螺是绝配）",
+        "notes": null
+      },
+      {
+        "name": "生姜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生姜（1 小块）",
+        "notes": null
+      },
+      {
+        "name": "葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱（2 根）",
+        "notes": null
+      },
+      {
+        "name": "桂林三花酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 桂林三花酒",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": null
+      },
+      {
+        "name": "食盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食盐",
+        "notes": null
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油",
+        "notes": null
+      },
+      {
+        "name": "酸笋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 酸笋（可选，50g）",
+        "notes": null
+      },
+      {
+        "name": "大蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 大蒜（可选，4-5 瓣）",
+        "notes": null
+      },
+      {
+        "name": "干辣椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 干辣椒（可选，3-4 个）",
+        "notes": null
+      },
+      {
+        "name": "蚝油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蚝油（可选）",
+        "notes": null
+      },
+      {
+        "name": "淀粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 淀粉（可选）",
+        "notes": null
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白胡椒粉（可选）",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "上午买回田螺，放入清水盆中，静置一下午吐沙"
+      },
+      {
+        "step": 2,
+        "description": "可在水中滴几滴香油（或者芥末~）加速吐沙"
+      },
+      {
+        "step": 3,
+        "description": "用刷子将田螺外壳刷洗干净（这一步可以时间久一些）"
+      },
+      {
+        "step": 4,
+        "description": "用老虎钳或菜刀剪去田螺尾部（约剪掉 1/3 到一半）"
+      },
+      {
+        "step": 5,
+        "description": "大锅烧水，水开后放入田螺焯烫 1-2 分钟（时间不可太久，螺肉会老）"
+      },
+      {
+        "step": 6,
+        "description": "捞出后用牙签挑出螺肉，去掉螺盖和黑色泥肠"
+      },
+      {
+        "step": 7,
+        "description": "螺壳用水冲洗干净，甩干水分备用"
+      },
+      {
+        "step": 8,
+        "description": "螺肉用盐抓洗干净，剁成碎粒（不要剁成泥，保留颗粒感才有嚼头）"
+      },
+      {
+        "step": 9,
+        "description": "猪肉剁成肉末"
+      },
+      {
+        "step": 10,
+        "description": "薄荷叶、紫苏叶切碎，姜切末，葱切葱花"
+      },
+      {
+        "step": 11,
+        "description": "将螺肉碎、猪肉末、薄荷碎、紫苏碎、姜末、葱花放入碗中"
+      },
+      {
+        "step": 12,
+        "description": "加入三花酒 15ml、生抽 15ml、食盐 3g"
+      },
+      {
+        "step": 13,
+        "description": "可选加入：蚝油 10ml、白胡椒粉 2g、淀粉 10g"
+      },
+      {
+        "step": 14,
+        "description": "朝一个方向搅拌至馅料粘稠上劲"
+      },
+      {
+        "step": 15,
+        "description": "图省事上面的所有东西直接放入打肉机直接打。"
+      },
+      {
+        "step": 16,
+        "description": "将馅料用筷子塞入田螺壳中，尽量塞满塞紧，但不要撑破螺壳"
+      },
+      {
+        "step": 17,
+        "description": "依次酿完所有田螺"
+      },
+      {
+        "step": 18,
+        "description": "热锅，倒入 30ml 食用油，可选放入酸笋和干辣椒炒出香味"
+      },
+      {
+        "step": 19,
+        "description": "倒入清水或高汤约 300ml，加生抽 15ml、食盐 2g，大火烧开"
+      },
+      {
+        "step": 20,
+        "description": "将酿好的田螺放入锅中，盖上锅盖，中小火焖煮 10 分钟"
+      },
+      {
+        "step": 21,
+        "description": "焖煮过程中不要频繁翻动，等肉馅六七成熟定型后再轻轻翻动"
+      },
+      {
+        "step": 22,
+        "description": "开盖，放入剩余的新鲜薄荷叶和紫苏叶，再焖 2-3 分钟"
+      },
+      {
+        "step": 23,
+        "description": "大火收汁至汤汁浓稠，即可出锅"
       }
     ]
   },
@@ -41269,6 +42057,223 @@
     ]
   },
   {
+    "id": "meat_dish/青椒酿/青椒酿",
+    "name": "青椒酿的做法",
+    "description": "![青椒酿成品](./成品.jpeg)\n![煎至虎皮状](./煎至虎皮状.jpeg)",
+    "source_path": "meat_dish/青椒酿/青椒酿.md",
+    "category": "荤菜",
+    "difficulty": 3,
+    "servings": 2,
+    "tags": [
+      "荤菜",
+      "青椒酿"
+    ],
+    "ingredients": [
+      {
+        "name": "青椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青椒（6-8 个，选笔直、肉厚的，不要用灯笼菜椒）",
+        "notes": null
+      },
+      {
+        "name": "猪肉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 猪肉（250g，肥瘦比例 3:7 的前夹肉最佳）",
+        "notes": null
+      },
+      {
+        "name": "葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱（2 根）",
+        "notes": null
+      },
+      {
+        "name": "生姜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生姜（1 小块）",
+        "notes": null
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": null
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 老抽",
+        "notes": null
+      },
+      {
+        "name": "食盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食盐",
+        "notes": null
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油",
+        "notes": null
+      },
+      {
+        "name": "淀粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 淀粉（可选，涂青椒内壁防粘、勾芡收汁）",
+        "notes": null
+      },
+      {
+        "name": "大蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 大蒜（可选，3-4 瓣）",
+        "notes": null
+      },
+      {
+        "name": "蚝油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蚝油（可选）",
+        "notes": null
+      },
+      {
+        "name": "料酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 料酒（可选）",
+        "notes": null
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋（可选）",
+        "notes": null
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白胡椒粉（可选）",
+        "notes": null
+      },
+      {
+        "name": "白糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白糖（可选）",
+        "notes": null
+      },
+      {
+        "name": "猪肉馅 250g（肥瘦比例 3",
+        "quantity": 7.0,
+        "unit": null,
+        "text_quantity": "- 猪肉馅 250g（肥瘦比例 3:7）",
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "猪肉洗净剁成肉馅（或用绞肉机），姜切末，葱切葱花"
+      },
+      {
+        "step": 2,
+        "description": "肉馅中加入姜末、葱花、生抽 15ml、老抽 5ml、食盐 3g，搅拌均匀"
+      },
+      {
+        "step": 3,
+        "description": "可选加入：料酒 10ml、蚝油 10ml、鸡蛋 1 个、淀粉 5g、白胡椒粉 2g、白糖 5g"
+      },
+      {
+        "step": 4,
+        "description": "朝一个方向搅拌肉馅至粘稠上劲，腌制 10 分钟"
+      },
+      {
+        "step": 5,
+        "description": "青椒洗净，去蒂，用筷子小心挖去内部的籽和白筋，保持青椒完整不破"
+      },
+      {
+        "step": 6,
+        "description": "可选在青椒内壁撒干淀粉约 5g，摇晃均匀，帮助肉馅粘附不脱落"
+      },
+      {
+        "step": 7,
+        "description": "将腌好的肉馅用筷子或裱花袋塞入青椒中，尽量填满但不要太紧以防撑破"
+      },
+      {
+        "step": 8,
+        "description": "全部酿好后备用"
+      },
+      {
+        "step": 9,
+        "description": "碗中加入生抽 15ml、老抽 5ml、清水 100ml，搅拌均匀"
+      },
+      {
+        "step": 10,
+        "description": "可选加入淀粉 5g，使汤汁更浓稠"
+      },
+      {
+        "step": 11,
+        "description": "热锅，倒入 30ml 食用油，油温五六成热时放入酿好的青椒（肉面朝下先煎）"
+      },
+      {
+        "step": 12,
+        "description": "中小火慢煎，翻面使青椒各面都煎至表皮起皱呈虎皮色，盛出备用"
+      },
+      {
+        "step": 13,
+        "description": "锅留底油，可选放入蒜末爆香"
+      },
+      {
+        "step": 14,
+        "description": "倒入调好的酱汁，烧开后放入煎好的青椒"
+      },
+      {
+        "step": 15,
+        "description": "转中小火，盖上锅盖焖煮 5-8 分钟，至汤汁浓稠、青椒变软"
+      },
+      {
+        "step": 16,
+        "description": "开盖大火收汁至汤汁油亮包裹青椒，即可出锅装盘"
+      },
+      {
+        "step": 17,
+        "description": "虾仁 250g 去虾线，用刀背拍成虾泥（保留一定颗粒感，口感更好，直接买成品虾滑得了，买那种三角形的裱花一样直接塞进去）"
+      },
+      {
+        "step": 18,
+        "description": "虾滑馅调味：姜末 5g、食盐 2g、淀粉 5g、生抽 10ml"
+      },
+      {
+        "step": 19,
+        "description": "可选加入：料酒 5ml、白胡椒粉 1g、蛋清半个"
+      },
+      {
+        "step": 20,
+        "description": "朝一个方向搅拌至虾滑上劲，腌制 10 分钟"
+      },
+      {
+        "step": 21,
+        "description": "后续酿入、煎制、焖煮步骤与猪肉版本一致"
+      },
+      {
+        "step": 22,
+        "description": "虾滑易熟，焖煮时间可缩短至 4-5 分钟"
+      }
+    ]
+  },
+  {
     "id": "meat_dish/香干肉丝",
     "name": "香干肉丝的做法",
     "description": "预估烹饪难度：★★★",
@@ -43810,35 +44815,32 @@
         "unit": "ml",
         "text_quantity": "- `开水`：500ml",
         "notes": null
-      },
-      {
-        "name": "`糖`",
-        "quantity": null,
-        "unit": null,
-        "text_quantity": "- `糖`（这里以冰糖为例）",
-        "notes": null
       }
     ],
     "steps": [
       {
         "step": 1,
-        "description": "开火，并向锅中倒入 100ml 开水"
+        "description": "*要求**：在开火前，必须将 400ml 开水和所有准备好的葱姜蒜辅料放置在灶台手边，确保 1 秒内可以拿取。"
       },
       {
         "step": 2,
-        "description": "再向锅中倒入 100ml 油，与第一步间隔越短越好，此时锅为大火中火都可以，着急的话可以大火"
+        "description": "开火，并向锅中倒入 100ml 开水"
       },
       {
         "step": 3,
-        "description": "放入冰糖（如果冰糖过于耦合，可以提前敲碎，做到耦合度越低越好）"
+        "description": "再向锅中倒入 100ml 油，与第一步间隔越短越好，此时锅为大火中火都可以，着急的话可以大火"
       },
       {
         "step": 4,
-        "description": "调整火力为中火"
+        "description": "放入冰糖（如果冰糖过于耦合，可以提前敲碎，做到耦合度越低越好）"
       },
       {
         "step": 5,
-        "description": "开始搅拌\n  要一直一直一直搅拌，变成棕褐色，此时**转为小火**\n  再变稀，变红茶色，再变成酱红色后起小泡泡，准备好执行下面的`操作1`or`操作2`\n  小泡泡会逐渐消失，之后会出现大泡泡，大泡泡出现时糖色完成\n  需要在此时快速进行下一步操作（无论哪种操作都一定要提前准备好并快速！否则火候过大糖色发苦），根据菜品派别以及个人口味作出选择\n  操作 1：可以直接加 400ml 开水降温\n  操作 2：也可以加入葱姜蒜花椒等调味品进行翻炒"
+        "description": "调整火力为中火"
+      },
+      {
+        "step": 6,
+        "description": "开始搅拌\n  要一直一直一直搅拌，变成棕褐色，此时**转为小火**\n  再变稀，变红茶色，再变成酱红色后起小泡泡，准备好执行下面的`操作1`or`操作2`\n  小泡泡会逐渐消失，之后会出现大泡泡，大泡泡出现时糖色完成\n  需要在此时快速进行下一步操作（无论哪种操作都一定要提前准备好并快速！否则火候过大糖色发苦），根据菜品派别以及个人口味作出选择\n  操作 1：可以直接加 400ml 开水降温\n  操作 2（进阶调味版）：在糖液变成枣红色并起密集小泡时，迅速加入提前备好的葱姜蒜、花椒等辅料进行翻炒。**爆出香味后（约 5-10 秒内），必须立刻倒入 400ml 开水降温中止反应**。（*注：若后续菜谱需要翻炒肉类上色，请在此步先下入肉类翻炒，最后再加水。*）"
       }
     ]
   },
