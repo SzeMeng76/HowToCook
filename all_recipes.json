@@ -9387,12 +9387,12 @@
     "description": "![完美水煮蛋](https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1yBdnK.img?w=768&h=512&m=6)",
     "source_path": "breakfast/完美水煮蛋.md",
     "category": "早餐",
-    "difficulty": 5,
+    "difficulty": 2,
     "servings": 2,
     "tags": [
       "早餐",
       "完美水煮蛋",
-      "复杂"
+      "简单"
     ],
     "ingredients": [
       {
@@ -29493,12 +29493,11 @@
     "description": "糖和脂肪是人类快乐的源泉，富含这二者的台式卤肉饭每一口都能带来直击灵魂的满足感。",
     "source_path": "meat_dish/台式卤肉饭/台式卤肉饭.md",
     "category": "荤菜",
-    "difficulty": 5,
+    "difficulty": 3,
     "servings": 3,
     "tags": [
       "荤菜",
-      "台式卤肉饭",
-      "复杂"
+      "台式卤肉饭"
     ],
     "ingredients": [
       {
@@ -36690,12 +36689,11 @@
     "description": "![无骨鸡爪成品](./猪皮冻.jpg)",
     "source_path": "meat_dish/猪皮冻/猪皮冻.md",
     "category": "荤菜",
-    "difficulty": 5,
+    "difficulty": 3,
     "servings": 2,
     "tags": [
       "荤菜",
-      "猪皮冻",
-      "复杂"
+      "猪皮冻"
     ],
     "ingredients": [
       {
@@ -47028,12 +47026,12 @@
     "description": "![酸梅汤](./imges/sour_plum_soup.jpg)",
     "source_path": "drink/酸梅汤/酸梅汤.md",
     "category": "饮品",
-    "difficulty": 4,
+    "difficulty": 2,
     "servings": 2,
     "tags": [
       "饮品",
       "酸梅汤",
-      "复杂"
+      "简单"
     ],
     "ingredients": [
       {
